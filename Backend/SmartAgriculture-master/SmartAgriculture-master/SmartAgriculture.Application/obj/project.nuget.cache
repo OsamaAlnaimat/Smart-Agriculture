@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CN5YBE9sv4k=",
+  "dgSpecHash": "HPJlum3ywXQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Downloads\\Backend\\SmartAgriculture-master\\SmartAgriculture-master\\SmartAgriculture.Application\\SmartAgriculture.Application.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture-master\\SmartAgriculture-master\\SmartAgriculture.Application\\SmartAgriculture.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartAgriculture.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b153dab5c18c12e9454ec3b07745067460d1539")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f487a01c12bcb3bdd6f938e08de47c3389188a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartAgriculture.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartAgriculture.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

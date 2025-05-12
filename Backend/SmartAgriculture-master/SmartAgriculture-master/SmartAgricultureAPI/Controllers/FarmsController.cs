@@ -14,6 +14,7 @@ namespace SmartAgricultureAPI.Controllers
     [ApiController]
     [Route("api/farms")]
     [Authorize]
+    //eeeeeee
     public class FarmsController(IMediator mediator) : ControllerBase
     {   
         [HttpGet]
