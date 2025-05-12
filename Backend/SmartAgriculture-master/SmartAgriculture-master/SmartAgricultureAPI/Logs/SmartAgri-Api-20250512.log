@@ -1,0 +1,12 @@
+2025-05-12 12:13:42.369 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-12 12:13:46.246 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 126.0273 ms
+2025-05-12 12:13:46.538 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 159.6941 ms
+2025-05-12 12:21:06.914 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-12 12:21:23.083 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 128.7798 ms
+2025-05-12 12:21:23.367 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 157.0927 ms
+2025-05-12 12:21:33.821 +03:00 [INF] Getting all farm
+2025-05-12 12:21:34.052 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-12 12:21:34.430 +03:00 [INF] HTTP GET /api/farms responded 200 in 798.5543 ms
+2025-05-12 19:27:22.656 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-12 19:27:28.721 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 136.2420 ms
+2025-05-12 19:27:29.034 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 176.8218 ms

@@ -1,0 +1,125 @@
+@SmartAgricultureAPI_HostAddress = https://localhost:7055
+@token = CfDJ8ETmEuRNVJVCkmqBk-RDS7ppf4M4D5GD4ptK94znJRJKHqV9QWEgKBgmba_Wvlb0hfFzBDnJjcWm0QeQXlSM9IdglWCAQT8G1K6Wa3Wwp6BG3fHfSXsx0azvi1sdoN_qa4tA9B3WdgRS3NoY6SqcWJRuBxibUtcdK2YJNBLzG7a_TInYV3rIeSWF82hbrOLyjpuLiBeij7-0Zjnurs_AwIekvoM7DN-Ww4Os1lmu63qRJyvakfvTIrl0_08Euyzi7kxhfTnQJJLlSU7wn04VTYiVYLzp3wJpBrC5s6rPH3mHQ-w4r98WQoYM-6xK8CRGJHDWpfvYCeu4cGkqn1JC3WHoPVJwW_BZ9YpSz15YwMRSjWlllmLebG6Diyk5F_-GdoPf2YLchzRYkOQwvDeiUguipokPO0DZoARQwmpaGVWBWoM88VZXchzSfJHB3k7ltCqotWz97CJF1Pr4eC8sPMAvRrVhd0b73V_TJYKsw4kOfXROuWLw6NuGe8PcRA6WlVhSCWvTsUQliHTwU7vcmuMC0JFA86bUzZhQ2tTt2D4dYtx2ejHNEbVhvgWHxQPvAOrHy6c1gciTreKrgJ_39-X-MWYKcLaGf1GZ7pqcqTUJ_44MVKKkmns_B2_k6xyIoz410hAHfSA5suyk80pVPhCWe0Hz_Ot-Hc-sctsQP1X0tdWTRuflzCDaHKjN3Hkf7izfnzb3Vfe_zqzevv9jjrc
+
+
+GET {{SmartAgricultureAPI_HostAddress}}/api/farms
+Authoraization: Bearer {{token}}
+
+###
+
+GET {{SmartAgricultureAPI_HostAddress}}/api/farms/1 
+Authoraization: Bearer {{token}}
+
+###
+
+POST {{SmartAgricultureAPI_HostAddress}}/api/farms
+Content-Type: application/json
+{
+    "farmName": "tqsdasdadt",
+    "farmSize": "23",
+    "framLocation": "hh"
+}
+###
+
+
+DELETE {{SmartAgricultureAPI_HostAddress}}/api/farms/13
+
+###
+
+PATCH {{SmartAgricultureAPI_HostAddress}}/api/farms/6
+Content-Type: application/json
+
+{
+    "farmName": "yyu",
+    "farmSize": "5",
+    "framLocation": "w"
+}
+
+###
+
+GET {{SmartAgricultureAPI_HostAddress}}/api/farms/{id}
+
+###
+
+POST {{SmartAgricultureAPI_HostAddress}}/api/farm/14/fields
+Content-Type: application/json
+
+{
+  
+  "fieldName": "yahya",
+  "fieldSize": 11,
+  "cropType": "test",
+  "farmId": 0
+}
+
+###
+
+
+GET https://localhost:7055/api/farm/14/fields/
+
+
+###
+
+DELETE {{SmartAgricultureAPI_HostAddress}}/api/farm/1/fields/1
+
+###
+
+GET {{SmartAgricultureAPI_HostAddress}}/api/farm/{farmId}/fields
+
+###
+
+POST {{SmartAgricultureAPI_HostAddress}}/api/identity/register
+Content-Type: application/json
+{
+  
+  "email": "farmer@test.com",
+  "password": "Osama*2003"
+  
+}
+  
+###
+POST {{SmartAgricultureAPI_HostAddress}}/api/identity/login
+Content-Type: application/json
+{
+  
+  "email": "wwwoalnaimat3@gmail.com",
+  "password": "Osama*2003"
+  
+}
+###
+
+
+POST {{SmartAgricultureAPI_HostAddress}}/api/identity/userRole
+Content-Type: application/json
+
+{
+  //AssignUserRoleCommand
+}
+
+###
+
+POST {{SmartAgricultureAPI_HostAddress}}/api/farm/1/fields/1/soildata
+Content-Type: application/json
+
+{
+   "soilPH": 6.5,
+  "nitrogen": 35,            
+  "phosphorus": 20,          
+  "potassium": 150,           
+  "soilTexture": "Loamy",    
+  "soilMoisture": 25,        
+  "soilOrganicMatter": 3.5,  
+  "collectedAt": "2025-05-07T07:52:43.270Z",
+  "farmId": 1,
+  "fieldId": 1
+}
+
+###
+
+GET {{SmartAgricultureAPI_HostAddress}}/api/farm/1/fields/1/soildata
+
+###
+
+GET {{SmartAgricultureAPI_HostAddress}}/api/farm/{2}/weather?city=London
+
+###

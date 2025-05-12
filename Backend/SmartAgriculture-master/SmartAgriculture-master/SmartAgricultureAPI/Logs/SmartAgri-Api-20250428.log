@@ -1,0 +1,73 @@
+2025-04-28 15:31:45.560 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-28 15:32:44.295 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-28 15:33:02.194 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-28 15:33:06.331 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 204.3573 ms
+2025-04-28 15:33:06.740 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 126.0594 ms
+2025-04-28 15:33:15.931 +03:00 [INF] Getting all farm
+2025-04-28 15:33:16.375 +03:00 [INF] HTTP GET /api/farms responded 200 in 577.8583 ms
+2025-04-28 15:36:02.308 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-28 15:36:05.214 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 152.4523 ms
+2025-04-28 15:36:05.557 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 108.0227 ms
+2025-04-28 15:36:12.618 +03:00 [INF] Getting Farm 1 
+2025-04-28 15:36:13.135 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 699.2165 ms
+2025-04-28 15:36:42.215 +03:00 [INF] Getting all farm
+2025-04-28 15:36:42.344 +03:00 [INF] HTTP GET /api/farms responded 200 in 142.5578 ms
+2025-04-28 15:56:29.336 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-28 15:56:50.457 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-28 15:57:08.393 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-28 15:57:11.340 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 114.8344 ms
+2025-04-28 15:57:11.571 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 119.7064 ms
+2025-04-28 15:58:06.885 +03:00 [INF] Getting all farm
+2025-04-28 15:58:07.320 +03:00 [INF] HTTP GET /api/farms responded 200 in 554.1607 ms
+2025-04-28 16:00:17.511 +03:00 [INF] HTTP POST /register responded 400 in 51.6675 ms
+2025-04-28 16:00:23.938 +03:00 [INF] HTTP POST /register responded 400 in 7.6471 ms
+2025-04-28 16:00:31.234 +03:00 [INF] HTTP POST /register responded 400 in 8.0723 ms
+2025-04-28 16:00:37.606 +03:00 [INF] HTTP POST /register responded 400 in 0.6649 ms
+2025-04-28 16:00:55.278 +03:00 [INF] HTTP POST /register responded 200 in 395.1884 ms
+2025-04-28 16:02:35.147 +03:00 [INF] HTTP POST /login responded 200 in 160.2706 ms
+2025-04-28 16:02:47.976 +03:00 [INF] HTTP POST /login responded 401 in 10.6392 ms
+2025-04-28 16:02:49.901 +03:00 [INF] HTTP POST /login responded 401 in 14.3092 ms
+2025-04-28 16:02:56.757 +03:00 [INF] HTTP POST /login responded 401 in 10.5521 ms
+2025-04-28 16:03:05.900 +03:00 [INF] HTTP POST /login responded 401 in 123.8016 ms
+2025-04-28 16:04:50.808 +03:00 [INF] HTTP POST /forgotPassword responded 200 in 38.0194 ms
+2025-04-28 16:06:14.093 +03:00 [ERR] Failed to read parameter "ForgotPasswordRequest resetRequest" from the request body as JSON.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "ForgotPasswordRequest resetRequest" from the request body as JSON.
+ ---> System.Text.Json.JsonException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $ | LineNumber: 4 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. LineNumber: 4 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.ReadConstructorArgumentsWithContinuation(ReadStack& state, Utf8JsonReader& reader, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Converters.JsonMetadataServicesConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper.InvalidJsonRequestBody(String parameterTypeName, String parameterName, Exception exception)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass8_0.<<MapPost5>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-04-28 16:06:14.123 +03:00 [ERR] HTTP POST /forgotPassword responded 500 in 118.3971 ms
+2025-04-28 16:06:19.890 +03:00 [INF] HTTP POST /forgotPassword responded 200 in 13.2674 ms
+2025-04-28 16:06:47.145 +03:00 [INF] HTTP POST /forgotPassword responded 200 in 5.9456 ms
+2025-04-28 16:06:49.295 +03:00 [INF] HTTP POST /forgotPassword responded 200 in 2.3910 ms
+2025-04-28 16:06:49.836 +03:00 [INF] HTTP POST /forgotPassword responded 200 in 2.1212 ms
+2025-04-28 16:06:54.798 +03:00 [INF] HTTP POST /forgotPassword responded 200 in 2.8355 ms
+2025-04-28 16:06:59.290 +03:00 [INF] HTTP POST /forgotPassword responded 200 in 11.0933 ms
+2025-04-28 21:29:01.446 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-28 21:29:05.176 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 142.3564 ms
+2025-04-28 21:29:05.454 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 135.5510 ms

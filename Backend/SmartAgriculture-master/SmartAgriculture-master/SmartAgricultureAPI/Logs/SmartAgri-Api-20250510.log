@@ -1,0 +1,460 @@
+2025-05-10 10:14:41.883 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:14:45.599 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 142.1172 ms
+2025-05-10 10:14:45.994 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 152.0996 ms
+2025-05-10 10:15:18.804 +03:00 [INF] Retrieving WeatherData for farm with id: 1
+2025-05-10 10:15:19.019 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:16:03.157 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-10 10:16:05.526 +03:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> WeatherDto
+System.Collections.Generic.List`1[[SmartAgriculture.Domain.Entities.WeatherData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SmartAgriculture.Application.Weather.Dtos.WeatherDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> WeatherDto
+System.Collections.Generic.List`1[[SmartAgriculture.Domain.Entities.WeatherData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SmartAgriculture.Application.Weather.Dtos.WeatherDto
+   at lambda_method476(Closure, Object, WeatherDto, ResolutionContext)
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 33
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:16:05.570 +03:00 [ERR] HTTP GET /api/farm/1/weather responded 500 in 46978.8210 ms
+2025-05-10 10:17:52.900 +03:00 [INF] Getting all farm
+2025-05-10 10:17:52.974 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:17:53.094 +03:00 [INF] HTTP GET /api/farms responded 200 in 213.2205 ms
+2025-05-10 10:19:41.071 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:19:44.327 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 109.6127 ms
+2025-05-10 10:19:44.653 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 146.6861 ms
+2025-05-10 10:20:02.290 +03:00 [INF] Retrieving WeatherData for farm with id: 1
+2025-05-10 10:20:02.506 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:20:26.942 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-10 10:20:29.325 +03:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Task`1 -> WeatherDto
+System.Threading.Tasks.Task`1[[SmartAgriculture.Domain.Entities.WeatherData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SmartAgriculture.Application.Weather.Dtos.WeatherDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Task`1 -> WeatherDto
+System.Threading.Tasks.Task`1[[SmartAgriculture.Domain.Entities.WeatherData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SmartAgriculture.Application.Weather.Dtos.WeatherDto
+   at lambda_method476(Closure, Object, WeatherDto, ResolutionContext)
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 33
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:20:29.354 +03:00 [ERR] HTTP GET /api/farm/1/weather responded 500 in 27252.2936 ms
+2025-05-10 10:25:00.522 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:25:03.635 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 135.2932 ms
+2025-05-10 10:25:03.967 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 154.1994 ms
+2025-05-10 10:25:12.261 +03:00 [INF] Retrieving WeatherData for farm with id: 1
+2025-05-10 10:25:12.514 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:25:22.818 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-10 10:25:24.662 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeather(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:25:24.713 +03:00 [ERR] HTTP GET /api/farm/1/weather responded 500 in 12701.0223 ms
+2025-05-10 10:25:49.125 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:25:52.113 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 120.7608 ms
+2025-05-10 10:25:52.400 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 147.3259 ms
+2025-05-10 10:26:03.159 +03:00 [INF] Retrieving WeatherData for farm with id: 1
+2025-05-10 10:26:03.371 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:28:30.257 +03:00 [INF] Request [GET] at /api/farm/1/weather took 147306 ms
+2025-05-10 10:28:30.260 +03:00 [INF] HTTP GET /api/farm/1/weather responded 200 in 147315.2460 ms
+2025-05-10 10:29:05.394 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:29:08.406 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 126.4902 ms
+2025-05-10 10:29:08.723 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 156.4027 ms
+2025-05-10 10:29:11.336 +03:00 [INF] Getting all farm
+2025-05-10 10:29:11.539 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:29:11.841 +03:00 [INF] HTTP GET /api/farms responded 200 in 650.5635 ms
+2025-05-10 10:29:37.338 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:29:40.452 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 118.5918 ms
+2025-05-10 10:29:40.767 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 157.8808 ms
+2025-05-10 10:29:54.195 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:29:54.392 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:29:58.315 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-10 10:29:58.524 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeather(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:29:58.541 +03:00 [ERR] HTTP GET /api/farm/2/weather responded 500 in 4520.6487 ms
+2025-05-10 10:32:55.438 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:32:58.358 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 118.4281 ms
+2025-05-10 10:32:58.652 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 142.7542 ms
+2025-05-10 10:33:57.078 +03:00 [INF] HTTP GET /api/farm/{2}/weather responded 400 in 122.7268 ms
+2025-05-10 10:34:29.711 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:34:29.911 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:34:31.000 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-10 10:34:31.211 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeatherAsync(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:34:31.262 +03:00 [ERR] HTTP GET /api/farm/2/weather responded 500 in 1660.2166 ms
+2025-05-10 10:35:14.112 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:35:14.453 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-10 10:35:14.700 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeatherAsync(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:35:14.709 +03:00 [ERR] HTTP GET /api/farm/2/weather responded 500 in 604.1967 ms
+2025-05-10 10:35:42.853 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:35:59.815 +03:00 [INF] Request [GET] at /api/farm/2/weather took 16964 ms
+2025-05-10 10:35:59.818 +03:00 [INF] HTTP GET /api/farm/2/weather responded 200 in 16968.1753 ms
+2025-05-10 10:37:37.468 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:37:40.728 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 122.7119 ms
+2025-05-10 10:37:41.040 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 156.4972 ms
+2025-05-10 10:37:44.446 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:37:44.647 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:37:45.477 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-05-10 10:37:45.698 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method300(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeatherAsync(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:37:45.749 +03:00 [ERR] HTTP GET /api/farm/2/weather responded 500 in 1465.6594 ms
+2025-05-10 10:37:55.481 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:37:55.836 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-05-10 10:37:55.970 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method300(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeatherAsync(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:37:55.980 +03:00 [ERR] HTTP GET /api/farm/2/weather responded 500 in 504.0432 ms
+2025-05-10 10:37:57.432 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:37:57.701 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-05-10 10:37:57.848 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method300(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeatherAsync(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:37:57.858 +03:00 [ERR] HTTP GET /api/farm/2/weather responded 500 in 430.8497 ms
+2025-05-10 10:37:59.344 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:37:59.604 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-05-10 10:37:59.733 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method300(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeatherAsync(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:37:59.742 +03:00 [ERR] HTTP GET /api/farm/2/weather responded 500 in 398.8825 ms
+2025-05-10 10:38:54.431 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:38:56.743 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:38:56.975 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:38:57.553 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 123.8602 ms
+2025-05-10 10:38:57.994 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 176.7252 ms
+2025-05-10 10:38:58.045 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-10 10:38:58.315 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at SmartAgriculture.Infrastructure.Repositories.WeatherRepository.GetLastReadingForWeatherAsync(Int32 farmId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Infrastructure\Repositories\WeatherRepository.cs:line 48
+   at SmartAgriculture.Application.Weather.Queries.GetWeatherQueryHandler.Handle(GetWeatherQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\Weather\Queries\GetWeatherQueryHandler.cs:line 31
+   at SmartAgricultureAPI.Controllers.WeatherController.FetchWeather(Int32 farmId, String city) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\WeatherController.cs:line 14
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-10 10:38:58.378 +03:00 [ERR] HTTP GET /api/farm/2/weather responded 500 in 1854.6870 ms
+2025-05-10 10:39:30.971 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:39:33.853 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 119.6752 ms
+2025-05-10 10:39:34.139 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 139.5115 ms
+2025-05-10 10:39:39.532 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:39:39.744 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:39:54.711 +03:00 [INF] Request [GET] at /api/farm/2/weather took 15347 ms
+2025-05-10 10:39:54.714 +03:00 [INF] HTTP GET /api/farm/2/weather responded 200 in 15356.7815 ms
+2025-05-10 10:44:56.816 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:44:59.805 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 114.7663 ms
+2025-05-10 10:45:00.117 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 158.3048 ms
+2025-05-10 10:45:09.573 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:45:09.800 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:45:35.441 +03:00 [INF] Request [GET] at /api/farm/2/weather took 26067 ms
+2025-05-10 10:45:35.444 +03:00 [INF] HTTP GET /api/farm/2/weather responded 200 in 26076.9922 ms
+2025-05-10 10:45:40.715 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:45:50.445 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:45:53.442 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 112.4269 ms
+2025-05-10 10:45:53.758 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 144.9162 ms
+2025-05-10 10:45:56.246 +03:00 [INF] Retrieving WeatherData for farm with id: 2
+2025-05-10 10:45:56.462 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:45:57.357 +03:00 [INF] HTTP GET /api/farm/2/weather responded 200 in 1301.0759 ms
+2025-05-10 10:46:21.681 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:46:24.827 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 123.5870 ms
+2025-05-10 10:46:25.111 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 134.5621 ms
+2025-05-10 10:46:31.645 +03:00 [INF] Retrieving WeatherData for farm with id: 1
+2025-05-10 10:46:31.893 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:46:32.854 +03:00 [INF] HTTP GET /api/farm/1/weather responded 200 in 1402.2889 ms
+2025-05-10 10:49:31.847 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 10:49:34.826 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 126.8218 ms
+2025-05-10 10:49:35.117 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 146.8156 ms
+2025-05-10 10:49:38.984 +03:00 [INF] Retrieving WeatherData for farm with id: 1
+2025-05-10 10:49:39.193 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 10:49:40.128 +03:00 [INF] HTTP GET /api/farm/1/weather responded 200 in 1340.4413 ms
+2025-05-10 10:49:46.578 +03:00 [INF] Retrieving WeatherData for farm with id: 1
+2025-05-10 17:52:42.191 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-10 17:52:47.700 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 138.2731 ms
+2025-05-10 17:52:48.001 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 145.7815 ms
+2025-05-10 17:52:59.661 +03:00 [INF] Getting all farm
+2025-05-10 17:52:59.864 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-10 17:53:00.188 +03:00 [INF] HTTP GET /api/farms responded 200 in 669.4936 ms

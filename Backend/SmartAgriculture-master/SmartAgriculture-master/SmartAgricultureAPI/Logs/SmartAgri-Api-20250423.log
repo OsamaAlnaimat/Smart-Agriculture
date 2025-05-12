@@ -1,0 +1,7 @@
+2025-04-23 23:59:38.473 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-23 23:59:41.220 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 157.5285 ms
+2025-04-23 23:59:41.423 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 99.9295 ms
+2025-04-23 23:59:46.591 +03:00 [INF] Getting Farm 2 
+2025-04-23 23:59:46.828 +03:00 [INF] HTTP GET /api/farms/2 responded 200 in 367.0027 ms
+2025-04-23 23:59:48.383 +03:00 [INF] Getting all farm
+2025-04-23 23:59:48.472 +03:00 [INF] HTTP GET /api/farms responded 200 in 97.4927 ms

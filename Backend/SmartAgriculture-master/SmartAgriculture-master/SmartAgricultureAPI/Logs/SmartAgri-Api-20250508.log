@@ -1,0 +1,63 @@
+2025-05-08 10:54:09.192 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 10:55:17.785 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 10:55:18.804 +03:00 [ERR] Failed executing DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Farms] ADD CONSTRAINT [FK_Farms_AspNetUsers_FarmerId] FOREIGN KEY ([FarmerId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE;
+2025-05-08 11:04:33.349 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 11:04:34.175 +03:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE Farms SET FarmId = (SELECT TOP 1 Id FROM AspNetUsers)
+2025-05-08 11:04:51.001 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 11:06:04.125 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 11:06:08.009 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 133.5347 ms
+2025-05-08 11:06:08.366 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 178.0493 ms
+2025-05-08 11:06:16.118 +03:00 [INF] Getting all farm
+2025-05-08 11:06:16.714 +03:00 [INF] HTTP GET /api/farms responded 200 in 730.6742 ms
+2025-05-08 11:06:23.541 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 498.5254 ms
+2025-05-08 11:06:45.899 +03:00 [INF] Getting Farm 1 
+2025-05-08 11:06:45.964 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 133.0813 ms
+2025-05-08 11:14:46.791 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 11:14:50.324 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 138.8716 ms
+2025-05-08 11:14:50.670 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 176.7449 ms
+2025-05-08 11:16:33.033 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 607.9959 ms
+2025-05-08 11:17:11.593 +03:00 [INF] Getting all farm
+2025-05-08 11:17:11.940 +03:00 [INF] HTTP GET /api/farms responded 200 in 483.1101 ms
+2025-05-08 11:18:01.869 +03:00 [INF] HTTP POST /api/farms responded 400 in 90.5405 ms
+2025-05-08 11:18:36.087 +03:00 [INF] wwwoalnaimat3@gmail.com [e8fb40f3-7bb3-4dbe-82ff-006438ac7a9d] is Creating a new Farm {"FarmName":"OSAMA NEW","FarmSize":100,"FramLocation":"Ajloun","$type":"CreateFarmCommand"}
+2025-05-08 11:18:36.363 +03:00 [INF] HTTP POST /api/farms responded 201 in 357.7278 ms
+2025-05-08 11:20:22.942 +03:00 [INF] Getting Farm 13 
+2025-05-08 11:20:23.285 +03:00 [WRN] Farm with id 13 doesn't exist
+2025-05-08 11:20:23.293 +03:00 [INF] HTTP GET /api/farms/13 responded 404 in 367.8862 ms
+2025-05-08 11:20:34.678 +03:00 [INF] Getting Farm 14 
+2025-05-08 11:20:34.708 +03:00 [INF] HTTP GET /api/farms/14 responded 200 in 32.8935 ms
+2025-05-08 11:20:40.525 +03:00 [INF] Getting Farm 14 
+2025-05-08 11:20:40.536 +03:00 [INF] HTTP GET /api/farms/14 responded 200 in 15.8233 ms
+2025-05-08 11:20:45.962 +03:00 [INF] Getting Farm 12 
+2025-05-08 11:20:45.981 +03:00 [INF] HTTP GET /api/farms/12 responded 200 in 19.2939 ms
+2025-05-08 11:20:57.155 +03:00 [INF] Getting Farm 11 
+2025-05-08 11:20:57.164 +03:00 [INF] HTTP GET /api/farms/11 responded 200 in 10.2413 ms
+2025-05-08 18:57:30.306 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 18:58:04.957 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 18:58:06.102 +03:00 [ERR] Failed executing DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [WeatherDatas] ADD CONSTRAINT [FK_WeatherDatas_Farms_FarmId] FOREIGN KEY ([FarmId]) REFERENCES [Farms] ([Id]) ON DELETE CASCADE;
+2025-05-08 19:03:48.605 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:04:43.046 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:04:47.072 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 136.0065 ms
+2025-05-08 19:04:47.416 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 167.1957 ms
+2025-05-08 19:05:24.950 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:05:28.584 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 142.2202 ms
+2025-05-08 19:05:28.909 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 150.5125 ms
+2025-05-08 19:05:34.016 +03:00 [INF] Getting all farm
+2025-05-08 19:05:34.600 +03:00 [INF] HTTP GET /api/farms responded 200 in 746.5221 ms
+2025-05-08 19:10:42.708 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:10:50.062 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:11:03.349 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:14:15.766 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:14:19.414 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 130.7404 ms
+2025-05-08 19:14:20.432 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 179.7229 ms
+2025-05-08 19:14:23.557 +03:00 [INF] Getting all farm
+2025-05-08 19:14:24.154 +03:00 [INF] HTTP GET /api/farms responded 200 in 747.8146 ms
+2025-05-08 19:15:28.585 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:34:19.442 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:34:22.772 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 119.0024 ms
+2025-05-08 19:34:23.118 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 183.2480 ms
+2025-05-08 19:35:40.336 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-08 19:35:56.193 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

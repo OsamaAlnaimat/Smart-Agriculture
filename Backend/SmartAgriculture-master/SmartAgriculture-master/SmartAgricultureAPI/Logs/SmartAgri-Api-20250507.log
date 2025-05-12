@@ -1,0 +1,314 @@
+2025-05-07 10:49:11.709 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 10:49:15.443 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 134.9198 ms
+2025-05-07 10:49:15.928 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 165.8347 ms
+2025-05-07 10:50:20.218 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 10:50:22.789 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 116.9771 ms
+2025-05-07 10:50:23.200 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 140.5163 ms
+2025-05-07 10:51:14.905 +03:00 [INF] Getting all farm
+2025-05-07 10:51:15.539 +03:00 [INF] HTTP GET /api/farms responded 200 in 768.8984 ms
+2025-05-07 10:53:25.244 +03:00 [ERR] Unable to resolve service for type 'MediatR.Mediator' while attempting to activate 'SmartAgricultureAPI.Controllers.SoilDataController'.
+System.InvalidOperationException: Unable to resolve service for type 'MediatR.Mediator' while attempting to activate 'SmartAgricultureAPI.Controllers.SoilDataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method175(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-07 10:53:25.273 +03:00 [ERR] HTTP POST /api/farm/1/fields/1/soildata responded 500 in 112.9544 ms
+2025-05-07 10:56:37.866 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 10:56:40.439 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 110.0195 ms
+2025-05-07 10:56:40.731 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 139.4299 ms
+2025-05-07 10:58:03.950 +03:00 [ERR] Unable to resolve service for type 'MediatR.Mediator' while attempting to activate 'SmartAgricultureAPI.Controllers.SoilDataController'.
+System.InvalidOperationException: Unable to resolve service for type 'MediatR.Mediator' while attempting to activate 'SmartAgricultureAPI.Controllers.SoilDataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method29(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-07 10:58:03.966 +03:00 [ERR] HTTP POST /api/farm/1/fields/1/soildata responded 500 in 121.5102 ms
+2025-05-07 10:59:09.746 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 514.2056 ms
+2025-05-07 10:59:15.003 +03:00 [WRN] Retrieving field: 37, for farm with id: 1
+2025-05-07 10:59:15.368 +03:00 [WRN] Field with id 37 doesn't exist
+2025-05-07 10:59:15.369 +03:00 [INF] HTTP DELETE /api/farm/1/fields/37 responded 404 in 409.4632 ms
+2025-05-07 10:59:22.959 +03:00 [INF] HTTP DELETE /api/farm/1/fields/ responded 405 in 1.9973 ms
+2025-05-07 10:59:40.054 +03:00 [INF] Retrieving fields for farm with id: 3
+2025-05-07 10:59:40.100 +03:00 [INF] HTTP GET /api/farm/3/fields/ responded 200 in 127.2703 ms
+2025-05-07 11:00:12.264 +03:00 [ERR] Unable to resolve service for type 'MediatR.Mediator' while attempting to activate 'SmartAgricultureAPI.Controllers.SoilDataController'.
+System.InvalidOperationException: Unable to resolve service for type 'MediatR.Mediator' while attempting to activate 'SmartAgricultureAPI.Controllers.SoilDataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method29(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-07 11:00:12.270 +03:00 [ERR] HTTP POST /api/farm/1/fields/1/soildata responded 500 in 54.5463 ms
+2025-05-07 11:02:56.502 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:02:59.214 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 106.2436 ms
+2025-05-07 11:02:59.486 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 130.7682 ms
+2025-05-07 11:03:02.729 +03:00 [INF] HTTP POST /api/farm/1/fields/1/soildata responded 400 in 190.5378 ms
+2025-05-07 11:03:18.364 +03:00 [INF] HTTP POST /api/farm/1/fields/1/soildata responded 400 in 11.1663 ms
+2025-05-07 11:04:16.370 +03:00 [INF] Recording a new SoilData {"SoilPH":6.5,"Nitrogen":35,"Phosphorus":20,"Potassium":150,"SoilTexture":"Loamy","SoilMoisture":25,"SoilOrganicMatter":3.5,"CollectedAt":"2025-05-07T07:52:43.2700000Z","FarmId":1,"FieldId":1,"$type":"RecordSoilDataCommand"}
+2025-05-07 11:05:01.460 +03:00 [INF] Request [POST] at /api/farm/1/fields/1/soildata took 77236 ms
+2025-05-07 11:05:01.464 +03:00 [INF] HTTP POST /api/farm/1/fields/1/soildata responded 201 in 77244.7915 ms
+2025-05-07 11:06:08.749 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 11:08:32.751 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:08:35.474 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 123.9835 ms
+2025-05-07 11:08:35.729 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 121.3997 ms
+2025-05-07 11:08:58.965 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 11:09:20.668 +03:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+   at lambda_method206(Closure, Object, SoilDataDto, ResolutionContext)
+   at SmartAgriculture.Application.SoildData.Queries.GetSoilDataForField.GetSoilDataForFieldQueryHandler.Handle(GetSoilDataForFieldQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\SoildData\Queries\GetSoilDataForField\GetSoilDataForFieldQueryHandler.cs:line 37
+   at SmartAgricultureAPI.Controllers.SoilDataController.GetSoilDataForField(Int32 farmId, Int32 fieldId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\SoilDataController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-07 11:09:26.230 +03:00 [ERR] HTTP GET /api/farm/1/fields/1/soildata responded 500 in 39825.7957 ms
+2025-05-07 11:10:16.186 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:10:23.289 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 11:10:23.384 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 91.8394 ms
+2025-05-07 11:10:23.662 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 141.7536 ms
+2025-05-07 11:10:27.871 +03:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SmartAgriculture.Infrastructure.Repositories.SoilDataRepository+<GetSoilDataAsync>d__3, SmartAgriculture.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SmartAgriculture.Infrastructure.Repositories.SoilDataRepository+<GetSoilDataAsync>d__3, SmartAgriculture.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+   at lambda_method198(Closure, Object, SoilDataDto, ResolutionContext)
+   at SmartAgriculture.Application.SoildData.Queries.GetSoilDataForField.GetSoilDataForFieldQueryHandler.Handle(GetSoilDataForFieldQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\SoildData\Queries\GetSoilDataForField\GetSoilDataForFieldQueryHandler.cs:line 37
+   at SmartAgricultureAPI.Controllers.SoilDataController.GetSoilDataForField(Int32 farmId, Int32 fieldId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\SoilDataController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-07 11:10:27.890 +03:00 [ERR] HTTP GET /api/farm/1/fields/1/soildata responded 500 in 9599.4792 ms
+2025-05-07 11:10:39.879 +03:00 [INF] Getting all farm
+2025-05-07 11:10:40.016 +03:00 [INF] HTTP GET /api/farms responded 200 in 148.7446 ms
+2025-05-07 11:14:15.412 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 11:15:16.245 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:15:18.819 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 116.3456 ms
+2025-05-07 11:15:19.126 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 148.8476 ms
+2025-05-07 11:15:23.187 +03:00 [INF] Getting all farm
+2025-05-07 11:15:23.523 +03:00 [INF] HTTP GET /api/farms responded 200 in 447.5024 ms
+2025-05-07 11:24:36.570 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:24:39.249 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 116.5320 ms
+2025-05-07 11:24:39.516 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 121.9311 ms
+2025-05-07 11:24:44.477 +03:00 [INF] Getting all farm
+2025-05-07 11:24:44.816 +03:00 [INF] HTTP GET /api/farms responded 200 in 438.0894 ms
+2025-05-07 11:25:05.361 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 11:33:01.860 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:33:04.533 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 117.2979 ms
+2025-05-07 11:33:04.792 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 127.6011 ms
+2025-05-07 11:33:18.636 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 11:33:23.126 +03:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-05-07 11:34:00.162 +03:00 [INF] Request [GET] at /api/farm/1/fields/1/soildata took 51141 ms
+2025-05-07 11:34:00.165 +03:00 [INF] HTTP GET /api/farm/1/fields/1/soildata responded 200 in 51150.9347 ms
+2025-05-07 11:34:07.295 +03:00 [INF] Getting all farm
+2025-05-07 11:34:07.420 +03:00 [INF] HTTP GET /api/farms responded 200 in 136.1141 ms
+2025-05-07 11:34:34.929 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:34:37.548 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 123.5246 ms
+2025-05-07 11:34:37.825 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 139.5955 ms
+2025-05-07 11:52:14.722 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:52:34.123 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:52:51.914 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:53:05.347 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:53:08.280 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 133.1922 ms
+2025-05-07 11:53:08.589 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 152.5506 ms
+2025-05-07 11:53:15.833 +03:00 [INF] Getting all farm
+2025-05-07 11:53:16.192 +03:00 [INF] HTTP GET /api/farms responded 200 in 479.7679 ms
+2025-05-07 11:58:20.089 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 11:58:22.012 +03:00 [INF] Getting all farm
+2025-05-07 11:58:22.621 +03:00 [INF] HTTP GET /api/farms responded 200 in 752.5360 ms
+2025-05-07 11:58:23.060 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 85.2526 ms
+2025-05-07 11:58:23.383 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 156.8365 ms
+2025-05-07 12:00:47.625 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 12:00:53.317 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 12:00:54.212 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 101.9132 ms
+2025-05-07 12:00:54.487 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 132.9700 ms
+2025-05-07 12:01:14.379 +03:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+   at lambda_method255(Closure, Object, SoilDataDto, ResolutionContext)
+   at SmartAgriculture.Application.SoildData.Queries.GetSoilDataForField.GetSoilDataForFieldQueryHandler.Handle(GetSoilDataForFieldQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\SoildData\Queries\GetSoilDataForField\GetSoilDataForFieldQueryHandler.cs:line 37
+   at SmartAgricultureAPI.Controllers.SoilDataController.GetSoilDataForField(Int32 farmId, Int32 fieldId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\SoilDataController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-07 12:01:14.424 +03:00 [ERR] HTTP GET /api/farm/1/fields/1/soildata responded 500 in 24930.4536 ms
+2025-05-07 12:01:53.241 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 12:01:58.035 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 12:01:58.264 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 111.7502 ms
+2025-05-07 12:02:01.373 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2961.3811 ms
+2025-05-07 12:02:02.848 +03:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+   at lambda_method255(Closure, Object, SoilDataDto, ResolutionContext)
+   at SmartAgriculture.Application.SoildData.Queries.GetSoilDataForField.GetSoilDataForFieldQueryHandler.Handle(GetSoilDataForFieldQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\SoildData\Queries\GetSoilDataForField\GetSoilDataForFieldQueryHandler.cs:line 37
+   at SmartAgricultureAPI.Controllers.SoilDataController.GetSoilDataForField(Int32 farmId, Int32 fieldId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\SoilDataController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-07 12:02:02.867 +03:00 [ERR] HTTP GET /api/farm/1/fields/1/soildata responded 500 in 8134.0494 ms
+2025-05-07 12:02:20.093 +03:00 [INF] Retrieving fields for farm with id: 3
+2025-05-07 12:02:20.200 +03:00 [INF] HTTP GET /api/farm/3/fields/ responded 200 in 119.3757 ms
+2025-05-07 12:02:36.184 +03:00 [INF] Retrieving fields for farm with id: 1
+2025-05-07 12:02:36.193 +03:00 [INF] HTTP GET /api/farm/1/fields/ responded 200 in 12.0653 ms
+2025-05-07 12:06:47.579 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 12:06:50.613 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 127.0877 ms
+2025-05-07 12:06:50.905 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 128.7958 ms
+2025-05-07 12:06:55.865 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 12:07:11.701 +03:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> SoilDataDto
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[SmartAgriculture.Domain.Entities.SoilData, SmartAgriculture.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> SmartAgriculture.Application.SoildData.Dtos.SoilDataDto
+   at lambda_method245(Closure, Object, SoilDataDto, ResolutionContext)
+   at SmartAgriculture.Application.SoildData.Queries.GetSoilDataForField.GetSoilDataForFieldQueryHandler.Handle(GetSoilDataForFieldQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgriculture.Application\SoildData\Queries\GetSoilDataForField\GetSoilDataForFieldQueryHandler.cs:line 37
+   at SmartAgricultureAPI.Controllers.SoilDataController.GetSoilDataForField(Int32 farmId, Int32 fieldId) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Controllers\SoilDataController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-07 12:07:11.738 +03:00 [ERR] HTTP GET /api/farm/1/fields/1/soildata responded 500 in 18333.8268 ms
+2025-05-07 12:08:28.447 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 12:08:31.012 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 119.9633 ms
+2025-05-07 12:08:31.313 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 150.9059 ms
+2025-05-07 12:08:36.738 +03:00 [INF] Retrieving soilData for farm with id: 1 and field with id: 1 
+2025-05-07 12:08:50.769 +03:00 [INF] Request [GET] at /api/farm/1/fields/1/soildata took 16333 ms
+2025-05-07 12:08:50.772 +03:00 [INF] HTTP GET /api/farm/1/fields/1/soildata responded 200 in 16341.4584 ms
+2025-05-07 12:10:07.760 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 12:10:10.348 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 123.3759 ms
+2025-05-07 12:10:10.662 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 157.5064 ms
+2025-05-07 12:10:14.100 +03:00 [INF] Getting all farm
+2025-05-07 12:10:14.512 +03:00 [INF] HTTP GET /api/farms responded 200 in 532.4972 ms
+2025-05-07 17:12:20.594 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-07 17:12:24.310 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 152.1038 ms
+2025-05-07 17:12:24.685 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 189.2769 ms
+2025-05-07 17:15:27.209 +03:00 [INF] Retrieving fields for farm with id: 1
+2025-05-07 17:15:27.966 +03:00 [INF] HTTP GET /api/farm/1/fields responded 200 in 1024.3552 ms
+2025-05-07 17:21:24.600 +03:00 [INF] Getting all farm
+2025-05-07 17:21:24.740 +03:00 [INF] HTTP GET /api/farms responded 200 in 154.0497 ms
+2025-05-07 17:36:45.604 +03:00 [INF] Creating a new Field {"FieldName":"yahya","FieldSize":11,"CropType":"test","FarmId":14,"$type":"CreateFieldCommand"}
+2025-05-07 17:36:45.856 +03:00 [INF] HTTP POST /api/farm/14/fields responded 201 in 304.7248 ms
+2025-05-07 17:37:09.864 +03:00 [INF] Retrieving fields for farm with id: 14
+2025-05-07 17:37:09.872 +03:00 [INF] HTTP GET /api/farm/14/fields/ responded 200 in 8.9368 ms
+2025-05-07 17:37:20.312 +03:00 [INF] Getting all farm
+2025-05-07 17:37:20.326 +03:00 [INF] HTTP GET /api/farms responded 200 in 16.4905 ms
+2025-05-07 17:38:02.102 +03:00 [INF] HTTP POST /api/farms responded 401 in 11.9325 ms
+2025-05-07 17:38:07.052 +03:00 [INF] HTTP DELETE /api/farms/13 responded 401 in 0.8964 ms
+2025-05-07 17:38:08.206 +03:00 [INF] HTTP DELETE /api/farms/13 responded 401 in 0.3160 ms
+2025-05-07 17:38:17.116 +03:00 [INF] Getting all farm
+2025-05-07 17:38:17.144 +03:00 [INF] HTTP GET /api/farms responded 200 in 31.1519 ms
+2025-05-07 17:40:48.018 +03:00 [INF] HTTP GET /api/farms/1 responded 401 in 2.1662 ms
+2025-05-07 17:41:15.169 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 325.9451 ms
+2025-05-07 17:42:17.726 +03:00 [INF] Getting Farm 1 
+2025-05-07 17:42:17.762 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 45.3714 ms

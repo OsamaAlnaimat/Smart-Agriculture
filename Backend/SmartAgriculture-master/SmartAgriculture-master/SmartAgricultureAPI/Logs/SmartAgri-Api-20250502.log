@@ -1,0 +1,531 @@
+2025-05-02 00:34:01.299 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:34:04.587 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 137.0057 ms
+2025-05-02 00:34:04.911 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 170.7982 ms
+2025-05-02 00:34:42.586 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:34:45.811 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 119.4751 ms
+2025-05-02 00:34:46.081 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 134.9145 ms
+2025-05-02 00:35:08.478 +03:00 [INF] HTTP GET /api/farms/1 responded 401 in 15.7598 ms
+2025-05-02 00:35:35.402 +03:00 [INF] Getting all farm
+2025-05-02 00:35:35.826 +03:00 [INF] HTTP GET /api/farms/ responded 200 in 4384.1516 ms
+2025-05-02 00:35:39.258 +03:00 [INF] HTTP GET /api/farms/1 responded 401 in 3.3138 ms
+2025-05-02 00:36:24.732 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 374.5915 ms
+2025-05-02 00:36:45.127 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:36:47.974 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 117.6717 ms
+2025-05-02 00:36:48.252 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 141.7007 ms
+2025-05-02 00:36:54.350 +03:00 [INF] Getting Farm 1 
+2025-05-02 00:36:54.774 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 4422.4933 ms
+2025-05-02 00:37:40.118 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:37:42.767 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 125.0186 ms
+2025-05-02 00:37:42.825 +03:00 [INF] Getting Farm 1 
+2025-05-02 00:37:43.064 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 154.8854 ms
+2025-05-02 00:37:43.306 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 697.1055 ms
+2025-05-02 00:40:16.324 +03:00 [INF] HTTP PATCH /api/identity/user responded 401 in 5.9750 ms
+2025-05-02 00:40:48.218 +03:00 [INF] HTTP GET /api/identity/user responded 405 in 1.8953 ms
+2025-05-02 00:41:00.459 +03:00 [INF] HTTP GET /api/identity/user responded 405 in 0.1764 ms
+2025-05-02 00:41:10.914 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 82.6837 ms
+2025-05-02 00:41:34.231 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:41:37.017 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 113.2164 ms
+2025-05-02 00:41:37.289 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 138.1144 ms
+2025-05-02 00:41:56.728 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 497.3436 ms
+2025-05-02 00:42:09.160 +03:00 [INF] HTTP GET /api/identity/user responded 405 in 1.6430 ms
+2025-05-02 00:42:21.498 +03:00 [INF] HTTP POST /api/identity/user responded 405 in 1.7437 ms
+2025-05-02 00:42:43.204 +03:00 [INF] HTTP POST /api/identity/user responded 405 in 2.1296 ms
+2025-05-02 00:43:14.405 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 86.4782 ms
+2025-05-02 00:44:34.453 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 8.9405 ms
+2025-05-02 00:44:54.354 +03:00 [INF] HTTP POST /api/identity/user responded 405 in 0.0705 ms
+2025-05-02 00:45:27.486 +03:00 [INF] HTTP GET /api/farms/1 responded 401 in 4.3929 ms
+2025-05-02 00:45:29.652 +03:00 [INF] Getting all farm
+2025-05-02 00:45:29.900 +03:00 [INF] HTTP GET /api/farms responded 200 in 337.3146 ms
+2025-05-02 00:46:34.003 +03:00 [INF] Getting Farm 1 
+2025-05-02 00:46:34.052 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 73.3996 ms
+2025-05-02 00:47:06.809 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 34.3276 ms
+2025-05-02 00:49:22.565 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:49:25.358 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 130.1858 ms
+2025-05-02 00:49:25.654 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 141.5705 ms
+2025-05-02 00:49:29.233 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 95.8694 ms
+2025-05-02 00:50:16.638 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 10.5831 ms
+2025-05-02 00:50:31.202 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 4.4900 ms
+2025-05-02 00:50:39.577 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 1.6336 ms
+2025-05-02 00:54:55.221 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:54:58.212 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 122.1384 ms
+2025-05-02 00:54:58.498 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 143.5226 ms
+2025-05-02 00:56:58.200 +03:00 [ERR] Failed to read parameter "LoginRequest login" from the request body as JSON.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "LoginRequest login" from the request body as JSON.
+ ---> System.Text.Json.JsonException: 'P' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 9 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'P' is invalid after a single JSON value. Expected end of data. LineNumber: 9 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper.InvalidJsonRequestBody(String parameterTypeName, String parameterName, Exception exception)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 00:56:58.242 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 172.5156 ms
+2025-05-02 00:57:05.089 +03:00 [ERR] Failed to read parameter "LoginRequest login" from the request body as JSON.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "LoginRequest login" from the request body as JSON.
+ ---> System.Text.Json.JsonException: 'P' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 9 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'P' is invalid after a single JSON value. Expected end of data. LineNumber: 9 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper.InvalidJsonRequestBody(String parameterTypeName, String parameterName, Exception exception)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 00:57:05.095 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 54.6057 ms
+2025-05-02 00:57:09.225 +03:00 [INF] Getting all farm
+2025-05-02 00:57:09.583 +03:00 [INF] HTTP GET /api/farms responded 200 in 461.2330 ms
+2025-05-02 00:57:19.011 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:57:21.834 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 121.9196 ms
+2025-05-02 00:57:22.127 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 155.7611 ms
+2025-05-02 00:57:27.655 +03:00 [ERR] Failed to read parameter "LoginRequest login" from the request body as JSON.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "LoginRequest login" from the request body as JSON.
+ ---> System.Text.Json.JsonException: 'P' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 9 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'P' is invalid after a single JSON value. Expected end of data. LineNumber: 9 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper.InvalidJsonRequestBody(String parameterTypeName, String parameterName, Exception exception)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 00:57:27.683 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 146.6843 ms
+2025-05-02 00:59:03.734 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 00:59:06.604 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 121.0278 ms
+2025-05-02 00:59:06.881 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 144.8446 ms
+2025-05-02 00:59:54.206 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-02 00:59:54.387 +03:00 [ERR] Data is Null. This method or property cannot be called on Null values.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions.<>c__1`1.<<MapIdentityApi>b__1_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 00:59:54.415 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 601.1901 ms
+2025-05-02 01:00:21.121 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-02 01:00:21.223 +03:00 [ERR] Data is Null. This method or property cannot be called on Null values.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions.<>c__1`1.<<MapIdentityApi>b__1_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 01:00:21.232 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 232.6087 ms
+2025-05-02 01:01:09.982 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 01:01:13.311 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 133.2227 ms
+2025-05-02 01:01:13.604 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 152.9658 ms
+2025-05-02 01:01:19.047 +03:00 [ERR] Failed to read parameter "LoginRequest login" from the request body as JSON.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "LoginRequest login" from the request body as JSON.
+ ---> System.Text.Json.JsonException: 'P' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 8 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'P' is invalid after a single JSON value. Expected end of data. LineNumber: 8 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper.InvalidJsonRequestBody(String parameterTypeName, String parameterName, Exception exception)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 01:01:19.085 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 137.7811 ms
+2025-05-02 01:01:32.948 +03:00 [INF] Retrieving field: 6, for farm with id: 3
+2025-05-02 01:01:33.345 +03:00 [INF] HTTP GET /api/farm/3/fields/6 responded 200 in 539.9713 ms
+2025-05-02 01:01:56.330 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 297.0547 ms
+2025-05-02 01:02:36.155 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 47.6592 ms
+2025-05-02 01:03:02.610 +03:00 [INF] HTTP PATCH /api/identity/user responded 401 in 4.5943 ms
+2025-05-02 01:03:43.603 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 3.8434 ms
+2025-05-02 01:03:44.965 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 1.7825 ms
+2025-05-02 01:03:46.369 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 1.8899 ms
+2025-05-02 01:03:51.120 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 1.7595 ms
+2025-05-02 01:03:54.732 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 1.8472 ms
+2025-05-02 01:03:58.674 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 1.9271 ms
+2025-05-02 01:11:44.624 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 01:11:47.619 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 119.8715 ms
+2025-05-02 01:11:47.890 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 136.4384 ms
+2025-05-02 01:11:53.025 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-02 01:11:53.136 +03:00 [ERR] Data is Null. This method or property cannot be called on Null values.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions.<>c__1`1.<<MapIdentityApi>b__1_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 01:11:53.159 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 367.2100 ms
+2025-05-02 01:12:09.803 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-02 01:12:09.874 +03:00 [ERR] Data is Null. This method or property cannot be called on Null values.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions.<>c__1`1.<<MapIdentityApi>b__1_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 01:12:09.880 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 157.3988 ms
+2025-05-02 01:12:20.908 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmartAgriculture.Infrastructure.Persistence.SmartAgriDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-02 01:12:21.030 +03:00 [ERR] Data is Null. This method or property cannot be called on Null values.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method27(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions.<>c__1`1.<<MapIdentityApi>b__1_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 01:12:21.036 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 155.6462 ms
+2025-05-02 01:13:51.980 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 01:13:53.951 +03:00 [INF] HTTP GET /api/farms/1 responded 401 in 28.0342 ms
+2025-05-02 01:13:54.719 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 113.5010 ms
+2025-05-02 01:13:55.030 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 157.6839 ms
+2025-05-02 01:13:58.135 +03:00 [INF] HTTP GET /api/farms/1 responded 401 in 2.7896 ms
+2025-05-02 01:14:06.207 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 443.9937 ms
+2025-05-02 01:14:26.119 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 91.9149 ms
+2025-05-02 01:14:36.033 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 4.0434 ms
+2025-05-02 01:14:54.805 +03:00 [INF] HTTP PATCH /api/identity/user responded 400 in 2.2615 ms
+2025-05-02 01:16:50.123 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 01:16:53.188 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 126.1658 ms
+2025-05-02 01:16:53.476 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 146.6191 ms
+2025-05-02 01:16:54.619 +03:00 [INF] Getting all farm
+2025-05-02 01:16:55.007 +03:00 [INF] HTTP GET /api/farms/ responded 200 in 514.2868 ms
+2025-05-02 01:16:58.712 +03:00 [INF] Getting Farm 1 
+2025-05-02 01:16:58.849 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 185.1258 ms
+2025-05-02 01:17:30.884 +03:00 [INF] HTTP PATCH /api/identity/user responded 401 in 9.7631 ms
+2025-05-02 01:17:49.110 +03:00 [INF] HTTP GET /api/identity/user responded 405 in 0.4328 ms
+2025-05-02 01:18:02.009 +03:00 [INF] HTTP GET /api/identity/user responded 405 in 0.1528 ms
+2025-05-02 01:18:02.940 +03:00 [INF] HTTP GET /api/identity/user responded 405 in 0.1263 ms
+2025-05-02 01:18:19.153 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 278.9598 ms
+2025-05-02 01:18:30.954 +03:00 [INF] HTTP GET /api/identity/user responded 405 in 0.1073 ms
+2025-05-02 01:18:45.406 +03:00 [INF] Updating user: e8fb40f3-7bb3-4dbe-82ff-006438ac7a9d with {"DateOfBirth":"2022-04-05","Nationality":"sssss","$type":"UpdateUserDetailsCommand"}
+2025-05-02 01:18:45.588 +03:00 [INF] Request [PATCH] at /api/identity/user took 9113 ms
+2025-05-02 01:18:45.590 +03:00 [INF] HTTP PATCH /api/identity/user responded 204 in 9115.8439 ms
+2025-05-02 21:06:17.181 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 21:06:41.694 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 129.2816 ms
+2025-05-02 21:06:42.001 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 150.1182 ms
+2025-05-02 21:09:37.321 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 21:09:40.344 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 112.2489 ms
+2025-05-02 21:09:40.618 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 140.0789 ms
+2025-05-02 21:10:27.536 +03:00 [INF] HTTP POST /api/identity/register responded 200 in 583.2248 ms
+2025-05-02 21:10:42.304 +03:00 [INF] HTTP POST /api/identity/register responded 200 in 158.1703 ms
+2025-05-02 21:15:58.206 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 21:16:01.313 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 106.6147 ms
+2025-05-02 21:16:01.658 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 150.6578 ms
+2025-05-02 21:16:58.838 +03:00 [INF] HTTP POST /api/farms responded 401 in 18.2598 ms
+2025-05-02 21:17:46.204 +03:00 [ERR] Failed to read parameter "LoginRequest login" from the request body as JSON.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "LoginRequest login" from the request body as JSON.
+ ---> System.Text.Json.JsonException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $ | LineNumber: 4 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. LineNumber: 4 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.ReadConstructorArgumentsWithContinuation(ReadStack& state, Utf8JsonReader& reader, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Converters.JsonMetadataServicesConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper.InvalidJsonRequestBody(String parameterTypeName, String parameterName, Exception exception)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 21:17:46.238 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 148.4471 ms
+2025-05-02 21:18:17.867 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 441.7433 ms
+2025-05-02 21:18:34.461 +03:00 [INF] HTTP POST /api/farms responded 401 in 3.0712 ms
+2025-05-02 21:18:41.253 +03:00 [INF] HTTP POST /api/farms responded 403 in 2.8740 ms
+2025-05-02 21:20:17.353 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 21:20:20.526 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 126.9842 ms
+2025-05-02 21:20:20.816 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 139.2304 ms
+2025-05-02 21:21:07.940 +03:00 [INF] HTTP POST /api/farms responded 403 in 11.0595 ms
+2025-05-02 21:21:17.047 +03:00 [INF] HTTP POST /api/farms responded 403 in 2.2540 ms
+2025-05-02 21:21:36.992 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 517.7266 ms
+2025-05-02 21:21:50.549 +03:00 [INF] Creating a new Farm {"FarmName":"CocoWawa","FarmSize":85,"FramLocation":"LA","$type":"CreateFarmCommand"}
+2025-05-02 21:21:50.847 +03:00 [INF] HTTP POST /api/farms responded 201 in 515.9780 ms
+2025-05-02 22:53:26.799 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 22:53:30.842 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 131.8772 ms
+2025-05-02 22:53:31.137 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 148.7344 ms
+2025-05-02 22:55:16.909 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 631.4746 ms
+2025-05-02 22:55:50.537 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 8.2769 ms
+2025-05-02 22:55:50.639 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12.6380 ms
+2025-05-02 22:57:25.816 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 22:57:29.129 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 120.8869 ms
+2025-05-02 22:57:29.418 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 142.9675 ms
+2025-05-02 22:57:34.402 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 557.1099 ms
+2025-05-02 22:59:03.105 +03:00 [INF] Assigning user role: {"UserEmail":"admin@test.com","RoleName":"Farmer","$type":"AssignUserRoleCommand"}
+2025-05-02 23:02:54.743 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 23:02:57.916 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 113.5124 ms
+2025-05-02 23:02:58.194 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 141.2578 ms
+2025-05-02 23:03:22.748 +03:00 [ERR] Failed to read parameter "LoginRequest login" from the request body as JSON.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "LoginRequest login" from the request body as JSON.
+ ---> System.Text.Json.JsonException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $ | LineNumber: 4 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. LineNumber: 4 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.ReadConstructorArgumentsWithContinuation(ReadStack& state, Utf8JsonReader& reader, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Converters.JsonMetadataServicesConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync[TValue](HttpRequest request, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper.InvalidJsonRequestBody(String parameterTypeName, String parameterName, Exception exception)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.TryResolveBodyAsync[T](HttpContext httpContext, <GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__LogOrThrowExceptionHelper logOrThrowExceptionHelper, Boolean allowEmpty, String parameterTypeName, String parameterName, JsonTypeInfo`1 jsonTypeInfo, Boolean isInferred)
+   at Microsoft.AspNetCore.Http.Generated.<GeneratedRouteBuilderExtensions_g>F69328E0708B4B584C5AACA22FE2C51A1CF192D6622828F613FC57C583CA77B63__GeneratedRouteBuilderExtensionsCore.<>c__DisplayClass4_0.<<MapPost1>g__RequestHandler|4>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SmartAgricultureAPI.Middlewares.RequestTimeLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\RequestTimeLoggingMiddleware.cs:line 11
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SmartAgricultureAPI.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ASUS\OneDrive\Desktop\Projects\Graduation Project\SmartAgriculture\SmartAgricultureAPI\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-05-02 23:03:22.787 +03:00 [ERR] HTTP POST /api/identity/login responded 500 in 140.3278 ms
+2025-05-02 23:03:50.638 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 544.6362 ms
+2025-05-02 23:04:31.405 +03:00 [INF] Assigning user role: {"UserEmail":"wwwoalnaimat@gmail.com","RoleName":"Farmer","$type":"AssignUserRoleCommand"}
+2025-05-02 23:04:36.526 +03:00 [WRN] User with id wwwoalnaimat@gmail.com doesn't exist
+2025-05-02 23:04:36.569 +03:00 [INF] HTTP POST /api/identity/userRole responded 404 in 10683.7436 ms
+2025-05-02 23:05:49.025 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-05-02 23:05:52.191 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 120.6961 ms
+2025-05-02 23:05:52.507 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 151.6261 ms
+2025-05-02 23:06:04.339 +03:00 [INF] HTTP POST /api/identity/login responded 200 in 548.2145 ms
+2025-05-02 23:07:07.880 +03:00 [INF] Assigning user role: {"UserEmail":"wwwoalnaimat3@gmail.com","RoleName":"Farmer","$type":"AssignUserRoleCommand"}
+2025-05-02 23:07:23.151 +03:00 [INF] Request [POST] at /api/identity/userRole took 21679 ms
+2025-05-02 23:07:23.154 +03:00 [INF] HTTP POST /api/identity/userRole responded 204 in 21684.0826 ms

@@ -1,0 +1,104 @@
+2025-04-25 01:11:47.654 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 01:11:51.843 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 186.0651 ms
+2025-04-25 01:11:52.089 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 116.1520 ms
+2025-04-25 01:14:24.727 +03:00 [INF] Getting all farm
+2025-04-25 01:14:25.024 +03:00 [INF] HTTP GET /api/farms responded 200 in 457.1120 ms
+2025-04-25 01:15:12.778 +03:00 [INF] Creating a new Farm {"FarmName":"Yahya","FarmSize":66,"FramLocation":"shouna","$type":"CreateFarmCommand"}
+2025-04-25 01:15:13.162 +03:00 [INF] HTTP POST /api/farms responded 201 in 552.4565 ms
+2025-04-25 01:15:29.106 +03:00 [INF] Getting all farm
+2025-04-25 01:15:29.116 +03:00 [INF] HTTP GET /api/farms responded 200 in 12.6833 ms
+2025-04-25 01:16:21.083 +03:00 [INF] Deleting farm with 13
+2025-04-25 01:16:21.221 +03:00 [INF] HTTP DELETE /api/farms/13 responded 204 in 152.7565 ms
+2025-04-25 01:16:44.397 +03:00 [INF] Getting all farm
+2025-04-25 01:16:44.405 +03:00 [INF] HTTP GET /api/farms responded 200 in 12.4721 ms
+2025-04-25 06:02:33.031 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 06:02:36.791 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 199.4357 ms
+2025-04-25 06:02:37.035 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 112.9064 ms
+2025-04-25 06:02:48.029 +03:00 [INF] Getting all farm
+2025-04-25 06:02:48.308 +03:00 [INF] HTTP GET /api/farms responded 200 in 407.9736 ms
+2025-04-25 06:03:07.511 +03:00 [INF] HTTP GET /api/farm/{farmId}/fields responded 400 in 58.2456 ms
+2025-04-25 06:03:21.220 +03:00 [INF] Retrieving fields for farm with id: 1
+2025-04-25 06:03:21.536 +03:00 [INF] HTTP GET /api/farm/1/fields responded 200 in 346.0547 ms
+2025-04-25 06:03:42.417 +03:00 [INF] Getting all farm
+2025-04-25 06:03:42.431 +03:00 [INF] HTTP GET /api/farms responded 200 in 15.2245 ms
+2025-04-25 06:05:56.201 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 06:05:59.310 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 177.9786 ms
+2025-04-25 06:05:59.534 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 114.2071 ms
+2025-04-25 06:06:08.417 +03:00 [INF] Getting all farm
+2025-04-25 06:06:08.640 +03:00 [INF] HTTP GET /api/farms responded 200 in 331.5004 ms
+2025-04-25 06:06:21.606 +03:00 [INF] Getting Farm 1 
+2025-04-25 06:06:21.895 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 335.1047 ms
+2025-04-25 06:09:13.014 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 06:09:15.898 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 161.4763 ms
+2025-04-25 06:09:16.117 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 103.9832 ms
+2025-04-25 06:09:17.657 +03:00 [INF] Getting all farm
+2025-04-25 06:09:18.056 +03:00 [INF] HTTP GET /api/farms responded 200 in 508.0595 ms
+2025-04-25 17:36:45.407 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 17:36:48.909 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 182.9875 ms
+2025-04-25 17:36:49.147 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 112.6769 ms
+2025-04-25 17:37:02.022 +03:00 [INF] Getting all farm
+2025-04-25 17:37:02.439 +03:00 [INF] HTTP GET /api/farms responded 200 in 545.6013 ms
+2025-04-25 17:37:17.758 +03:00 [INF] Getting Farm 1 
+2025-04-25 17:37:17.918 +03:00 [INF] HTTP GET /api/farms/1 responded 200 in 220.5094 ms
+2025-04-25 17:37:47.940 +03:00 [INF] HTTP GET /api/farm/1/1 responded 404 in 1.8870 ms
+2025-04-25 17:37:54.898 +03:00 [INF] HTTP GET /api/farm/1/2 responded 404 in 4.7642 ms
+2025-04-25 17:38:18.305 +03:00 [INF] HTTP GET /api/farm/54/2 responded 404 in 0.2308 ms
+2025-04-25 17:38:50.379 +03:00 [INF] Retrieving fields for farm with id: 1
+2025-04-25 17:38:50.409 +03:00 [INF] HTTP GET /api/farm/1/fields responded 200 in 46.1356 ms
+2025-04-25 17:38:54.009 +03:00 [INF] Retrieving fields for farm with id: 44
+2025-04-25 17:38:54.238 +03:00 [WRN] Farm with id 44 doesn't exist
+2025-04-25 17:38:54.240 +03:00 [INF] HTTP GET /api/farm/44/fields responded 404 in 233.2597 ms
+2025-04-25 17:39:10.864 +03:00 [INF] HTTP GET /api/farm/54/2 responded 404 in 0.1095 ms
+2025-04-25 17:39:16.682 +03:00 [INF] HTTP GET /api/farm/1/22 responded 404 in 0.1379 ms
+2025-04-25 17:39:35.788 +03:00 [INF] Retrieving fields for farm with id: 1
+2025-04-25 17:39:35.808 +03:00 [INF] HTTP GET /api/farm/1/fields responded 200 in 23.7608 ms
+2025-04-25 17:39:43.822 +03:00 [INF] Retrieving field: 1, for farm with id: 1
+2025-04-25 17:39:43.836 +03:00 [INF] HTTP GET /api/farm/1/fields/1 responded 200 in 20.2042 ms
+2025-04-25 17:39:53.786 +03:00 [INF] Retrieving field: 44, for farm with id: 1
+2025-04-25 17:39:53.924 +03:00 [WRN] Field with id 44 doesn't exist
+2025-04-25 17:39:53.926 +03:00 [INF] HTTP GET /api/farm/1/fields/44 responded 404 in 140.5450 ms
+2025-04-25 17:40:05.210 +03:00 [INF] Retrieving field: 4, for farm with id: 1
+2025-04-25 17:40:05.349 +03:00 [WRN] Field with id 4 doesn't exist
+2025-04-25 17:40:05.351 +03:00 [INF] HTTP GET /api/farm/1/fields/4 responded 404 in 142.2985 ms
+2025-04-25 17:40:08.792 +03:00 [INF] Retrieving field: 2, for farm with id: 1
+2025-04-25 17:40:08.800 +03:00 [INF] HTTP GET /api/farm/1/fields/2 responded 200 in 9.2768 ms
+2025-04-25 18:11:02.854 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 18:11:06.224 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 159.0562 ms
+2025-04-25 18:11:06.446 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 106.2221 ms
+2025-04-25 18:16:09.907 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 18:16:12.786 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 177.9381 ms
+2025-04-25 18:16:13.028 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 117.2636 ms
+2025-04-25 18:16:25.947 +03:00 [INF] Retrieving field: 2, for farm with id: 1
+2025-04-25 18:16:26.382 +03:00 [INF] HTTP GET /api/farm/1/fields/2 responded 200 in 607.9838 ms
+2025-04-25 18:16:33.655 +03:00 [INF] Retrieving fields for farm with id: 1
+2025-04-25 18:16:33.735 +03:00 [INF] HTTP GET /api/farm/1/fields responded 200 in 90.6888 ms
+2025-04-25 18:16:42.658 +03:00 [INF] Retrieving field: 3, for farm with id: 1
+2025-04-25 18:16:42.676 +03:00 [INF] HTTP GET /api/farm/1/fields/3 responded 200 in 21.8849 ms
+2025-04-25 18:17:04.262 +03:00 [WRN] Retrieving field: 3, for farm with id: 1
+2025-04-25 18:17:04.421 +03:00 [INF] HTTP DELETE /api/farm/1/fields/3 responded 204 in 172.8976 ms
+2025-04-25 18:17:06.990 +03:00 [INF] Retrieving field: 3, for farm with id: 1
+2025-04-25 18:17:07.204 +03:00 [WRN] Field with id 3 doesn't exist
+2025-04-25 18:17:07.207 +03:00 [INF] HTTP GET /api/farm/1/fields/3 responded 404 in 219.7754 ms
+2025-04-25 18:17:11.193 +03:00 [INF] Retrieving fields for farm with id: 1
+2025-04-25 18:17:11.204 +03:00 [INF] HTTP GET /api/farm/1/fields responded 200 in 12.4152 ms
+2025-04-25 18:17:17.440 +03:00 [WRN] Retrieving field: 37, for farm with id: 1
+2025-04-25 18:17:17.578 +03:00 [WRN] Field with id 37 doesn't exist
+2025-04-25 18:17:17.580 +03:00 [INF] HTTP DELETE /api/farm/1/fields/37 responded 404 in 140.5441 ms
+2025-04-25 18:22:01.590 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 18:22:04.381 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 169.6945 ms
+2025-04-25 18:22:04.617 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 108.4783 ms
+2025-04-25 18:22:07.110 +03:00 [INF] Retrieving fields for farm with id: 1
+2025-04-25 18:22:07.558 +03:00 [INF] HTTP GET /api/farm/1/fields responded 200 in 614.2084 ms
+2025-04-25 18:22:20.033 +03:00 [INF] Retrieving fields for farm with id: 4
+2025-04-25 18:22:20.113 +03:00 [INF] HTTP GET /api/farm/4/fields responded 200 in 84.5159 ms
+2025-04-25 18:22:23.451 +03:00 [INF] Retrieving fields for farm with id: 3
+2025-04-25 18:22:23.458 +03:00 [INF] HTTP GET /api/farm/3/fields responded 200 in 10.6933 ms
+2025-04-25 18:22:44.009 +03:00 [INF] Creating a new Field {"FieldName":"OsyField","FieldSize":34,"CropType":"ddddd","FarmId":3,"$type":"CreateFieldCommand"}
+2025-04-25 18:22:44.194 +03:00 [INF] HTTP POST /api/farm/3/fields responded 204 in 227.4500 ms
+2025-04-25 18:27:37.952 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-25 18:27:40.795 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 177.9747 ms
+2025-04-25 18:27:41.046 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 107.4824 ms
+2025-04-25 18:28:02.219 +03:00 [INF] Creating a new Field {"FieldName":"test2222","FieldSize":11,"CropType":"new","FarmId":3,"$type":"CreateFieldCommand"}
+2025-04-25 18:28:02.766 +03:00 [INF] HTTP POST /api/farm/3/fields responded 201 in 733.8583 ms
+2025-04-25 18:28:15.292 +03:00 [INF] Retrieving field: 6, for farm with id: 3
+2025-04-25 18:28:15.399 +03:00 [INF] HTTP GET /api/farm/3/fields/6 responded 200 in 120.9307 ms
