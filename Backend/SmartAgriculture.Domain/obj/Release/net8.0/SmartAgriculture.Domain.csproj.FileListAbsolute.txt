@@ -1,0 +1,13 @@
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\bin\Release\net8.0\SmartAgriculture.Domain.deps.json
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\bin\Release\net8.0\SmartAgriculture.Domain.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\bin\Release\net8.0\SmartAgriculture.Domain.pdb
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\SmartAgriculture.Domain.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\SmartAgriculture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\SmartAgriculture.Domain.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\SmartAgriculture.Domain.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\SmartAgriculture.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\SmartAgriculture.Domain.sourcelink.json
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\SmartAgriculture.Domain.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\refint\SmartAgriculture.Domain.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\SmartAgriculture.Domain.pdb
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Domain\obj\Release\net8.0\ref\SmartAgriculture.Domain.dll

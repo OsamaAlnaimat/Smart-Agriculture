@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartAgriculture.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69e3ce05eddd82cc605a2e0f9ad010284392f61b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61fac5c404395008413bd124bd85ebf9e14e5573")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartAgriculture.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartAgriculture.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,6 +53,10 @@
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ServiceCollectionExtensions.cs",
@@ -60,14 +64,8 @@
               "RelativeDocumentMoniker": "Backend\\SmartAgriculture-master\\SmartAgriculture-master\\SmartAgriculture.Application\\Extensions\\ServiceCollectionExtensions.cs",
               "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture-master\\SmartAgriculture-master\\SmartAgriculture.Application\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeToolTip": "Backend\\SmartAgriculture-master\\SmartAgriculture-master\\SmartAgriculture.Application\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:41:24.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-05-12T16:41:24.273Z"
             },
             {
               "$type": "Document",
@@ -79,8 +77,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-05-12T16:32:25.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T16:32:25.173Z"
             }
           ]
         }

@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Backend",
-    "\\Backend\\SmartAgriculture-master",
-    "\\Backend\\SmartAgriculture-master\\SmartAgriculture-master",
-    "\\Backend\\SmartAgriculture-master\\SmartAgriculture-master\\.github",
-    "\\Backend\\SmartAgriculture-master\\SmartAgriculture-master\\SmartAgriculture.Application",
-    "\\Backend\\SmartAgriculture-master\\SmartAgriculture-master\\SmartAgriculture.Application\\Extensions"
+    "\\Backend"
   ],
-  "SelectedNode": "\\Backend\\SmartAgriculture-master\\SmartAgriculture-master\\SmartAgriculture.sln",
   "PreviewInSolutionExplorer": false
 }

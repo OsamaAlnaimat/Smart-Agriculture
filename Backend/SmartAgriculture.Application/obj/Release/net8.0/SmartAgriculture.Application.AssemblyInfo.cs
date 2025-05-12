@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartAgriculture.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b153dab5c18c12e9454ec3b07745067460d1539")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61fac5c404395008413bd124bd85ebf9e14e5573")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartAgriculture.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartAgriculture.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,16 @@
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\bin\Release\net8.0\SmartAgriculture.Application.deps.json
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\bin\Release\net8.0\SmartAgriculture.Application.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\bin\Release\net8.0\SmartAgriculture.Application.pdb
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\bin\Release\net8.0\SmartAgriculture.Domain.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\bin\Release\net8.0\SmartAgriculture.Domain.pdb
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgriculture.Application.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgriculture.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgriculture.Application.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgriculture.Application.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgriculture.Application.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgriculture.Application.sourcelink.json
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgr.60D853E1.Up2Date
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgriculture.Application.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\refint\SmartAgriculture.Application.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\SmartAgriculture.Application.pdb
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgriculture.Application\obj\Release\net8.0\ref\SmartAgriculture.Application.dll
