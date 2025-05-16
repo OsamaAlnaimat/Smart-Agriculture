@@ -3,8 +3,188 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.infrastructure\\repositories\\weatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|solutionrelative:smartagriculture.infrastructure\\repositories\\weatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.domain\\repositories\\iweatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|solutionrelative:smartagriculture.domain\\repositories\\iweatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|solutionrelative:smartagriculture.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\weather\\queries\\getweatherqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\weather\\queries\\getweatherqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\controllers\\farmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\controllers\\farmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\farms\\commands\\deletefarm\\deletefarmcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\farms\\commands\\deletefarm\\deletefarmcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\fields\\commands\\deletefield\\deletefieldforfarmcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\fields\\commands\\deletefield\\deletefieldforfarmcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\soilddata\\commands\\recordsoilddata\\recordsoildatacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\soilddata\\commands\\recordsoilddata\\recordsoildatacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\fields\\commands\\createfield\\createfieldcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\fields\\commands\\createfield\\createfieldcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\farms\\commands\\updatefarm\\updatefarmcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\farms\\commands\\updatefarm\\updatefarmcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\soilddata\\queries\\getsoildataforfield\\getsoildataforfieldqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\soilddata\\queries\\getsoildataforfield\\getsoildataforfieldqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\fields\\queries\\getfieldsforallfarm\\getfieldsforallfarmqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\fields\\queries\\getfieldsforallfarm\\getfieldsforallfarmqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\fields\\queries\\getfieldbyidforfarm\\getfieldbyidforfarmqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\fields\\queries\\getfieldbyidforfarm\\getfieldbyidforfarmqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\farms\\queries\\getfarmbyid\\getfarmbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\farms\\queries\\getfarmbyid\\getfarmbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\farms\\queries\\getallfarms\\getallfarmsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\farms\\queries\\getallfarms\\getallfarmsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.infrastructure\\repositories\\farmsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|solutionrelative:smartagriculture.infrastructure\\repositories\\farmsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.infrastructure\\seeders\\smartagricultureseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|solutionrelative:smartagriculture.infrastructure\\seeders\\smartagricultureseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.domain\\repositories\\ifieldsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|solutionrelative:smartagriculture.domain\\repositories\\ifieldsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.domain\\repositories\\ifarmsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|solutionrelative:smartagriculture.domain\\repositories\\ifarmsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\farms\\queries\\getallfarms\\getallfarmsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\farms\\queries\\getallfarms\\getallfarmsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\users\\commands\\assignuserrole\\assignuserrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\users\\commands\\assignuserrole\\assignuserrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\users\\commands\\assignuserrole\\assignuserrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\users\\commands\\assignuserrole\\assignuserrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\users\\iusercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\users\\iusercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\users\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\users\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\users\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\users\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.domain\\entities\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|solutionrelative:smartagriculture.domain\\entities\\farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.domain\\entities\\soildata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|solutionrelative:smartagriculture.domain\\entities\\soildata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.domain\\entities\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|solutionrelative:smartagriculture.domain\\entities\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.domain\\entities\\recommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|solutionrelative:smartagriculture.domain\\entities\\recommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\farms\\commands\\createfarm\\createfarmcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\farms\\commands\\createfarm\\createfarmcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\farms\\commands\\createfarm\\createfarmcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\farms\\commands\\createfarm\\createfarmcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\controllers\\soildatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\controllers\\soildatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\controllers\\fieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\controllers\\fieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\extensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\extensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\users\\commands\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\users\\commands\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\users\\commands\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\users\\commands\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94F56C0-B1CC-41E8-8D72-58A3322F7A6B}|SmartAgriculture.Domain\\SmartAgriculture.Domain.csproj|solutionrelative:smartagriculture.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\users\\commands\\registeruser\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\users\\commands\\registeruser\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.application\\farms\\commands\\createfarm\\createfarmcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C94B8E-E3B7-4960-9A60-F3BD203FCCE6}|SmartAgriculture.Application\\SmartAgriculture.Application.csproj|solutionrelative:smartagriculture.application\\farms\\commands\\createfarm\\createfarmcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\smartagricultureapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\smartagricultureapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagricultureapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F8E6E88-9F08-42CC-8CB3-F7710B4CCB0A}|SmartAgricultureAPI\\SmartAgricultureAPI.csproj|solutionrelative:smartagricultureapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|c:\\users\\asus\\onedrive\\desktop\\gp2\\backend\\smartagriculture.infrastructure\\migrations\\20250515185142_addpropartyforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C9246-239A-4D4F-AFBA-A795F070CBC2}|SmartAgriculture.Infrastructure\\SmartAgriculture.Infrastructure.csproj|solutionrelative:smartagriculture.infrastructure\\migrations\\20250515185142_addpropartyforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,21 +229,557 @@
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Repositories\\WeatherRepository.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Infrastructure\\Repositories\\WeatherRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Repositories\\WeatherRepository.cs",
+              "RelativeToolTip": "SmartAgriculture.Infrastructure\\Repositories\\WeatherRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:23:45.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "IWeatherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Repositories\\IWeatherRepository.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Domain\\Repositories\\IWeatherRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Repositories\\IWeatherRepository.cs",
+              "RelativeToolTip": "SmartAgriculture.Domain\\Repositories\\IWeatherRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:08:15.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetWeatherQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Weather\\Queries\\GetWeatherQueryHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Weather\\Queries\\GetWeatherQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Weather\\Queries\\GetWeatherQueryHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Weather\\Queries\\GetWeatherQueryHandler.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvxsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:06:44.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "SmartAgricultureAPI\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "SmartAgricultureAPI\\Controllers\\WeatherController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:54.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FarmsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\FarmsController.cs",
+              "RelativeDocumentMoniker": "SmartAgricultureAPI\\Controllers\\FarmsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\FarmsController.cs",
+              "RelativeToolTip": "SmartAgricultureAPI\\Controllers\\FarmsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:58:59.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "SmartAgriculture.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:22:28.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteFarmCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\DeleteFarm\\DeleteFarmCommandHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Farms\\Commands\\DeleteFarm\\DeleteFarmCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\DeleteFarm\\DeleteFarmCommandHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Farms\\Commands\\DeleteFarm\\DeleteFarmCommandHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:02:43.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecordSoilDataCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\SoildData\\Commands\\RecordSoildData\\RecordSoilDataCommandHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\SoildData\\Commands\\RecordSoildData\\RecordSoilDataCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\SoildData\\Commands\\RecordSoildData\\RecordSoilDataCommandHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\SoildData\\Commands\\RecordSoildData\\RecordSoilDataCommandHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA/wB4AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:06:14.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteFieldForFarmCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Fields\\Commands\\DeleteField\\DeleteFieldForFarmCommandHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Fields\\Commands\\DeleteField\\DeleteFieldForFarmCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Fields\\Commands\\DeleteField\\DeleteFieldForFarmCommandHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Fields\\Commands\\DeleteField\\DeleteFieldForFarmCommandHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvxoAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:07:09.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateFieldCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Fields\\Commands\\CreateField\\CreateFieldCommandHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Fields\\Commands\\CreateField\\CreateFieldCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Fields\\Commands\\CreateField\\CreateFieldCommandHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Fields\\Commands\\CreateField\\CreateFieldCommandHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvxsAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:05:53.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateFarmCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\UpdateFarm\\UpdateFarmCommandHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Farms\\Commands\\UpdateFarm\\UpdateFarmCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\UpdateFarm\\UpdateFarmCommandHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Farms\\Commands\\UpdateFarm\\UpdateFarmCommandHandler.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvxoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:05:08.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetSoilDataForFieldQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\SoildData\\Queries\\GetSoilDataForField\\GetSoilDataForFieldQueryHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\SoildData\\Queries\\GetSoilDataForField\\GetSoilDataForFieldQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\SoildData\\Queries\\GetSoilDataForField\\GetSoilDataForFieldQueryHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\SoildData\\Queries\\GetSoilDataForField\\GetSoilDataForFieldQueryHandler.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwB8AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:04:29.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetFieldsForAllFarmQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Fields\\Queries\\GetFieldsForAllFarm\\GetFieldsForAllFarmQueryHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Fields\\Queries\\GetFieldsForAllFarm\\GetFieldsForAllFarmQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Fields\\Queries\\GetFieldsForAllFarm\\GetFieldsForAllFarmQueryHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Fields\\Queries\\GetFieldsForAllFarm\\GetFieldsForAllFarmQueryHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA8wBUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:03:39.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetFieldByIdForFarmQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Fields\\Queries\\GetFieldByIdForFarm\\GetFieldByIdForFarmQueryHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Fields\\Queries\\GetFieldByIdForFarm\\GetFieldByIdForFarmQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Fields\\Queries\\GetFieldByIdForFarm\\GetFieldByIdForFarmQueryHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Fields\\Queries\\GetFieldByIdForFarm\\GetFieldByIdForFarmQueryHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:03:11.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllFarmsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Queries\\GetAllFarms\\GetAllFarmsQueryHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Farms\\Queries\\GetAllFarms\\GetAllFarmsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Queries\\GetAllFarms\\GetAllFarmsQueryHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Farms\\Queries\\GetAllFarms\\GetAllFarmsQueryHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:47:42.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetFarmByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Queries\\GetFarmById\\GetFarmByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Farms\\Queries\\GetFarmById\\GetFarmByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Queries\\GetFarmById\\GetFarmByIdQueryHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Farms\\Queries\\GetFarmById\\GetFarmByIdQueryHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:59:10.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SmartAgricultureSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Seeders\\SmartAgricultureSeeder.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Infrastructure\\Seeders\\SmartAgricultureSeeder.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Seeders\\SmartAgricultureSeeder.cs",
+              "RelativeToolTip": "SmartAgriculture.Infrastructure\\Seeders\\SmartAgricultureSeeder.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:09:08.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FarmsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Repositories\\FarmsRepository.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Infrastructure\\Repositories\\FarmsRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Repositories\\FarmsRepository.cs",
+              "RelativeToolTip": "SmartAgriculture.Infrastructure\\Repositories\\FarmsRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:45:43.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IFieldsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Repositories\\IFieldsRepository.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Domain\\Repositories\\IFieldsRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Repositories\\IFieldsRepository.cs",
+              "RelativeToolTip": "SmartAgriculture.Domain\\Repositories\\IFieldsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:57:44.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetAllFarmsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Queries\\GetAllFarms\\GetAllFarmsQuery.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Farms\\Queries\\GetAllFarms\\GetAllFarmsQuery.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Queries\\GetAllFarms\\GetAllFarmsQuery.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Farms\\Queries\\GetAllFarms\\GetAllFarmsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:48:06.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IFarmsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Repositories\\IFarmsRepository.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Domain\\Repositories\\IFarmsRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Repositories\\IFarmsRepository.cs",
+              "RelativeToolTip": "SmartAgriculture.Domain\\Repositories\\IFarmsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:54:07.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssignUserRoleCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\AssignUserRole\\AssignUserRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Users\\Commands\\AssignUserRole\\AssignUserRoleCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\AssignUserRole\\AssignUserRoleCommandHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Users\\Commands\\AssignUserRole\\AssignUserRoleCommandHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:33:33.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AssignUserRoleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\AssignUserRole\\AssignUserRoleCommand.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Users\\Commands\\AssignUserRole\\AssignUserRoleCommand.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\AssignUserRole\\AssignUserRoleCommand.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Users\\Commands\\AssignUserRole\\AssignUserRoleCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:16:31.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\IUserContext.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Users\\IUserContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\IUserContext.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Users\\IUserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:55:13.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\UserContext.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Users\\UserContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\UserContext.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Users\\UserContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:48:54.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Users\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\CurrentUser.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Users\\CurrentUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:48:42.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Farm.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\Farm.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Domain\\Entities\\Farm.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\Farm.cs",
+              "RelativeToolTip": "SmartAgriculture.Domain\\Entities\\Farm.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:58:54.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SoilData.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\SoilData.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Domain\\Entities\\SoilData.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\SoilData.cs",
+              "RelativeToolTip": "SmartAgriculture.Domain\\Entities\\SoilData.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:52:01.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\Field.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Domain\\Entities\\Field.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\Field.cs",
+              "RelativeToolTip": "SmartAgriculture.Domain\\Entities\\Field.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:51:53.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Recommendation.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\Recommendation.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Domain\\Entities\\Recommendation.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\Recommendation.cs",
+              "RelativeToolTip": "SmartAgriculture.Domain\\Entities\\Recommendation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:51:56.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateFarmCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommand.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommand.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommand.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:59:41.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateFarmCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommandHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommandHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:59:43.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FieldsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\FieldsController.cs",
+              "RelativeDocumentMoniker": "SmartAgricultureAPI\\Controllers\\FieldsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\FieldsController.cs",
+              "RelativeToolTip": "SmartAgricultureAPI\\Controllers\\FieldsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:34.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IdentityController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\IdentityController.cs",
+              "RelativeDocumentMoniker": "SmartAgricultureAPI\\Controllers\\IdentityController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\IdentityController.cs",
+              "RelativeToolTip": "SmartAgricultureAPI\\Controllers\\IdentityController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:33:09.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SoilDataController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\SoilDataController.cs",
+              "RelativeDocumentMoniker": "SmartAgricultureAPI\\Controllers\\SoilDataController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Controllers\\SoilDataController.cs",
+              "RelativeToolTip": "SmartAgricultureAPI\\Controllers\\SoilDataController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:43.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "webApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Extensions\\webApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "SmartAgricultureAPI\\Extensions\\webApplicationBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Extensions\\webApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "SmartAgricultureAPI\\Extensions\\webApplicationBuilderExtensions.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:21:57.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:22:06.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "SmartAgriculture.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:08:49.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegisterUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:00:59.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommand.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommand.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:58:15.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Program.cs",
               "RelativeDocumentMoniker": "SmartAgricultureAPI\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\Program.cs",
               "RelativeToolTip": "SmartAgricultureAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:21:37.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:21:37.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250515185142_addPropartyForUser.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Migrations\\20250515185142_addPropartyForUser.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Infrastructure\\Migrations\\20250515185142_addPropartyForUser.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Infrastructure\\Migrations\\20250515185142_addPropartyForUser.cs",
+              "RelativeToolTip": "SmartAgriculture.Infrastructure\\Migrations\\20250515185142_addPropartyForUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:51:42.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RegisterUserCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandValidator.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandValidator.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandValidator.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandValidator.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:16:54.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateFarmCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommandValidator.cs",
+              "RelativeDocumentMoniker": "SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommandValidator.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommandValidator.cs",
+              "RelativeToolTip": "SmartAgriculture.Application\\Farms\\Commands\\CreateFarm\\CreateFarmCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:15:36.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SmartAgricultureAPI.http",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\SmartAgricultureAPI.http",
+              "RelativeDocumentMoniker": "SmartAgricultureAPI\\SmartAgricultureAPI.http",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\SmartAgricultureAPI.http",
+              "RelativeToolTip": "SmartAgricultureAPI\\SmartAgricultureAPI.http",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAywFYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-15T17:19:40.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SmartAgricultureAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\GP2\\Backend\\SmartAgricultureAPI\\appsettings.Development.json",
+              "RelativeToolTip": "SmartAgricultureAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T15:25:39.628Z"
             }
           ]
         }

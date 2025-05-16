@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
 using SmartAgriculture.Application.Fields.Commands.CreateField;
+using SmartAgriculture.Application.Users;
 using SmartAgriculture.Domain.Entities;
 using SmartAgriculture.Domain.Exceptions;
 using SmartAgriculture.Domain.Repositories;
@@ -16,15 +17,18 @@ namespace SmartAgriculture.Application.SoildData.Commands.RecordSoildData
     public class RecordSoilDataCommandHandler(ILogger<RecordSoilDataCommandHandler> logger,
         IMapper mapper,
         IFarmRepository farmsRepository,
+        IUserContext userContext,
         ISoilDataRepository soilDataRepository
         ) : IRequestHandler<RecordSoilDataCommand, int>
     {   
                 
         public async Task<int> Handle(RecordSoilDataCommand request, CancellationToken cancellationToken)
         {
+            var user = userContext.GetCurrentUser();
+
             logger.LogInformation("Recording a new SoilData {@soildata}", request);
 
-            var farm = await farmsRepository.GetByIdAsync(request.FarmId);
+            var farm = await farmsRepository.GetByIdAsync(request.FarmId,user!.Id);
             if (farm == null) throw new NotFoundException(nameof(Farm), request.FarmId.ToString());
 
             var field = farm.Fields?.FirstOrDefault(f => f.Id == request.FieldId);

@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.4",
           "Serilog.AspNetCore": "9.0.0",
+          "Serilog.Sinks.ApplicationInsights": "4.0.0",
           "SmartAgriculture.Application": "1.0.0",
           "SmartAgriculture.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -136,6 +137,17 @@
           "lib/netstandard2.0/MediatR.Contracts.dll": {
             "assemblyVersion": "2.0.1.0",
             "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Microsoft.ApplicationInsights/2.20.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "9.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ApplicationInsights.dll": {
+            "assemblyVersion": "2.20.0.103",
+            "fileVersion": "2.20.0.103"
           }
         }
       },
@@ -1031,6 +1043,18 @@
           }
         }
       },
+      "Serilog.Sinks.ApplicationInsights/4.0.0": {
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "2.20.0",
+          "Serilog": "4.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.Sinks.ApplicationInsights.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "Serilog.Sinks.Console/6.0.0": {
         "dependencies": {
           "Serilog": "4.2.0"
@@ -1508,6 +1532,13 @@
       "path": "mediatr.contracts/2.0.1",
       "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
+    "Microsoft.ApplicationInsights/2.20.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mb+EC5j06Msn5HhKrhrsMAst6JxvYUnphQMGY2cixCabgGAO3q79Y8o/p1Zce1Azgd1IVkRKAMzAV4vDCbXOqA==",
+      "path": "microsoft.applicationinsights/2.20.0",
+      "hashPath": "microsoft.applicationinsights.2.20.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.15": {
       "type": "package",
       "serviceable": true,
@@ -1934,6 +1965,13 @@
       "sha512": "sha512-4/Et4Cqwa+F88l5SeFeNZ4c4Z6dEAIKbu3MaQb2Zz9F/g27T5a3wvfMcmCOaAiACjfUb4A6wrlTVfyYUZk3RRQ==",
       "path": "serilog.settings.configuration/9.0.0",
       "hashPath": "serilog.settings.configuration.9.0.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.ApplicationInsights/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AlYq1JFqh+RFKwLKZ3X224Zbe1gnkMbqSELp2FApLN0iMyRPdwwxMJBCCrk49C8qOefBd4zN+J/1Tq3i75DunA==",
+      "path": "serilog.sinks.applicationinsights/4.0.0",
+      "hashPath": "serilog.sinks.applicationinsights.4.0.0.nupkg.sha512"
     },
     "Serilog.Sinks.Console/6.0.0": {
       "type": "package",

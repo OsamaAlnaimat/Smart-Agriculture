@@ -9,8 +9,8 @@ namespace SmartAgriculture.Domain.Repositories
 {
     public interface IFarmRepository
     {
-        Task<IEnumerable<Farm>> GetAllAsync();
-        Task<Farm?> GetByIdAsync(int id);
+        Task<IEnumerable<Farm>> GetAllAsync(string userId);
+        Task<Farm?> GetByIdAsync(int id,string userId);
         Task<int> Create(Farm entity);
         Task Delete(Farm entity);
         Task SaveChanges();

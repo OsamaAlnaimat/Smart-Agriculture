@@ -60,7 +60,7 @@ GET https://localhost:7055/api/farm/14/fields/
 
 ###
 
-DELETE {{SmartAgricultureAPI_HostAddress}}/api/farm/1/fields/1
+DELETE {{SmartAgricultureAPI_HostAddress}}/api/farm/1/fields/2
 
 ###
 
@@ -72,7 +72,7 @@ POST {{SmartAgricultureAPI_HostAddress}}/api/identity/register
 Content-Type: application/json
 {
   
-  "email": "farmer@test.com",
+  "email": "osama@test.com",
   "password": "Osama*2003"
   
 }
@@ -82,7 +82,8 @@ POST {{SmartAgricultureAPI_HostAddress}}/api/identity/login
 Content-Type: application/json
 {
   
-  "email": "wwwoalnaimat3@gmail.com",
+
+  "email": "osama@test.com",
   "password": "Osama*2003"
   
 }
@@ -123,3 +124,7 @@ GET {{SmartAgricultureAPI_HostAddress}}/api/farm/1/fields/1/soildata
 GET {{SmartAgricultureAPI_HostAddress}}/api/farm/{2}/weather?city=London
 
 ###
+
+
+GET {{SmartAgricultureAPI_HostAddress}}/api/farm/{farmId}/fields
+

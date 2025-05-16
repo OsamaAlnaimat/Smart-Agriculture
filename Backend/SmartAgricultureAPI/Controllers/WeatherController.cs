@@ -1,11 +1,14 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SmartAgriculture.Application.Weather.Queries;
+using SmartAgriculture.Domain.Constants;
 
 namespace SmartAgricultureAPI.Controllers
 {
     [ApiController]
     [Route("api/farm/{farmId}/weather/")]
+    [Authorize(Roles = UserRoles.Farmer)]
     public class WeatherController(IMediator mediator) : ControllerBase
     {
         [HttpGet]

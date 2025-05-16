@@ -12,9 +12,10 @@ namespace SmartAgriculture.Infrastructure.Repositories
 {
     internal class FarmsRepository(SmartAgriDbContext dbContext) : IFarmRepository
     {
-        public async Task<IEnumerable<Farm>> GetAllAsync()
+        public async Task<IEnumerable<Farm>> GetAllAsync(string userId)
         {
-            var farms = await dbContext.Farms   
+            var farms = await dbContext.Farms
+                .Where(f => f.FarmerId == userId)
                 .Include(r =>r.Fields!)
                   .ThenInclude(field => field.soilData)
                 .Include(f => f.WeatherReadings!)
@@ -22,9 +23,10 @@ namespace SmartAgriculture.Infrastructure.Repositories
             return farms;
         } 
         
-        public async Task<Farm?> GetByIdAsync(int id)
+        public async Task<Farm?> GetByIdAsync(int id,string userId)
         {
-            var farm = await dbContext.Farms 
+            var farm = await dbContext.Farms
+                .Where(f => f.FarmerId == userId)
                 .Include(r => r.Fields!)
                     .ThenInclude(field => field.soilData)
                 .Include(f => f.WeatherReadings!)

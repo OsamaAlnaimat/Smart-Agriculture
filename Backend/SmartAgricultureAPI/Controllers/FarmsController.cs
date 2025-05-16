@@ -13,12 +13,10 @@ namespace SmartAgricultureAPI.Controllers
 {
     [ApiController]
     [Route("api/farms")]
-    [Authorize]
-    //eeeeeee
+    [Authorize(Roles = UserRoles.Farmer)]
     public class FarmsController(IMediator mediator) : ControllerBase
     {   
         [HttpGet]
-        [AllowAnonymous]
         public async Task<IActionResult> GetAll()
         {
             var farms = await mediator.Send(new GetAllFarmsQuery());
@@ -34,7 +32,6 @@ namespace SmartAgricultureAPI.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = UserRoles.Farmer)]
         public async Task<IActionResult> CreateFarm(CreateFarmCommand command)
         {
 

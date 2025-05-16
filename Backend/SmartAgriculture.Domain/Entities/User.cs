@@ -11,6 +11,8 @@ namespace SmartAgriculture.Domain.Entities
     {
         public DateOnly? DateOfBirth { get; set; }
         public string? Nationality { get; set; }
+        public string FirstName { get; set; } = default!;
+        public string LastName { get; set; } = default!;
 
         public List<Farm> OwnedFarms { get; set; } = [];
     }

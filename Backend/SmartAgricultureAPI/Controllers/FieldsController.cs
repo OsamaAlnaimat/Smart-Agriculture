@@ -1,14 +1,17 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SmartAgriculture.Application.Fields.Commands.CreateField;
 using SmartAgriculture.Application.Fields.Commands.DeleteField;
 using SmartAgriculture.Application.Fields.Queries.GetFieldByIdForFarm;
 using SmartAgriculture.Application.Fields.Queries.GetFieldsForAllFarm;
+using SmartAgriculture.Domain.Constants;
 
 namespace SmartAgricultureAPI.Controllers
 {
     [ApiController]
     [Route("api/farm/{farmId}/fields")]
+    [Authorize(Roles = UserRoles.Farmer)]
     public class FieldsController(IMediator mediator) : ControllerBase
     {
         [HttpPost]

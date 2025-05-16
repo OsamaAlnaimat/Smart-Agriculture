@@ -200,3 +200,5 @@ C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\SmartAgricultureAPI.pdb
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\SmartAgricultureAPI.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\ref\SmartAgricultureAPI.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\bin\Release\net8.0\Microsoft.ApplicationInsights.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\bin\Release\net8.0\Serilog.Sinks.ApplicationInsights.dll

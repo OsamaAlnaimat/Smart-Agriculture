@@ -6,7 +6,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
   <PropertyGroup>
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAoiL1pWFKhUWQntS4AWKmwgAAAAACAAAAAAAQZgAAAAEAACAAAAC7Ntff+dixLeYFVWwobZnrKhcbEnx+rNSKdJDk08GJhAAAAAAOgAAAAAIAACAAAACmx7sYdvo05Dp9eS97c7YKB1FI0mtzD47Fpzi40aCT5jAAAABKn5BH33yeiGW9s0bDeVOgsFWE9/VPG6QB2YvzvjZAyVTlXLaq82vFyVxX7L+slFZAAAAAfGCUoKgAKyrOG+S5igOY3tMe+XdKWRoVgyu/53Km+Easo5a6V3T0Fa/a/4ULfsrbR14TwVfgm16gXJFzv2s/kQ==</EncryptedPassword>
     <_PublishTargetUrl>ftps://waws-prod-ilc-001.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
-    <History>True|2025-05-12T17:33:45.5487361Z||;False|2025-05-12T20:26:02.8778094+03:00||;False|2025-05-12T20:01:43.9226121+03:00||;</History>
+    <History>False|2025-05-15T15:54:16.3045996Z||;True|2025-05-12T20:33:45.5487361+03:00||;False|2025-05-12T20:26:02.8778094+03:00||;False|2025-05-12T20:01:43.9226121+03:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>

@@ -13,6 +13,7 @@ C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\MediatR.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\MediatR.Contracts.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Microsoft.ApplicationInsights.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -57,6 +58,7 @@ C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Serilog.Extensions.Logging.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Serilog.Formatting.Compact.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Serilog.Settings.Configuration.dll
+C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Serilog.Sinks.ApplicationInsights.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Serilog.Sinks.Console.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Serilog.Sinks.Debug.dll
 C:\Users\ASUS\OneDrive\Desktop\GP2\Backend\SmartAgricultureAPI\obj\Release\net8.0\PubTmp\Out\Serilog.Sinks.File.dll

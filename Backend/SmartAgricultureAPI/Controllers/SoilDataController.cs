@@ -1,15 +1,18 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using SmartAgriculture.Application.Fields.Commands.CreateField;
 using SmartAgriculture.Application.Fields.Queries.GetFieldsForAllFarm;
 using SmartAgriculture.Application.SoildData.Commands.RecordSoildData;
 using SmartAgriculture.Application.SoildData.Queries.GetSoilDataForField;
+using SmartAgriculture.Domain.Constants;
 
 namespace SmartAgricultureAPI.Controllers
 {
     [ApiController]
     [Route("api/farm/{farmId}/fields/{fieldId}/soildata")]
+    [Authorize(Roles = UserRoles.Farmer)]
     public class SoilDataController(IMediator mediator) : ControllerBase
     {
         [HttpGet]

@@ -169,6 +169,22 @@
           }
         }
       },
+      "Microsoft.ApplicationInsights/2.20.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ApplicationInsights.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ApplicationInsights.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.15": {
         "type": "package",
         "compile": {
@@ -1418,6 +1434,23 @@
           }
         }
       },
+      "Serilog.Sinks.ApplicationInsights/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "2.20.0",
+          "Serilog": "2.11.0"
+        },
+        "compile": {
+          "lib/net6.0/Serilog.Sinks.ApplicationInsights.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.Sinks.ApplicationInsights.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Serilog.Sinks.Console/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2369,6 +2402,27 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.2.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
+      ]
+    },
+    "Microsoft.ApplicationInsights/2.20.0": {
+      "sha512": "mb+EC5j06Msn5HhKrhrsMAst6JxvYUnphQMGY2cixCabgGAO3q79Y8o/p1Zce1Azgd1IVkRKAMzAV4vDCbXOqA==",
+      "type": "package",
+      "path": "microsoft.applicationinsights/2.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net452/Microsoft.ApplicationInsights.dll",
+        "lib/net452/Microsoft.ApplicationInsights.pdb",
+        "lib/net452/Microsoft.ApplicationInsights.xml",
+        "lib/net46/Microsoft.ApplicationInsights.dll",
+        "lib/net46/Microsoft.ApplicationInsights.pdb",
+        "lib/net46/Microsoft.ApplicationInsights.xml",
+        "lib/netstandard2.0/Microsoft.ApplicationInsights.dll",
+        "lib/netstandard2.0/Microsoft.ApplicationInsights.pdb",
+        "lib/netstandard2.0/Microsoft.ApplicationInsights.xml",
+        "microsoft.applicationinsights.2.20.0.nupkg.sha512",
+        "microsoft.applicationinsights.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.15": {
@@ -4886,6 +4940,24 @@
         "serilog.settings.configuration.nuspec"
       ]
     },
+    "Serilog.Sinks.ApplicationInsights/4.0.0": {
+      "sha512": "AlYq1JFqh+RFKwLKZ3X224Zbe1gnkMbqSELp2FApLN0iMyRPdwwxMJBCCrk49C8qOefBd4zN+J/1Tq3i75DunA==",
+      "type": "package",
+      "path": "serilog.sinks.applicationinsights/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/Serilog.Sinks.ApplicationInsights.dll",
+        "lib/net462/Serilog.Sinks.ApplicationInsights.xml",
+        "lib/net6.0/Serilog.Sinks.ApplicationInsights.dll",
+        "lib/net6.0/Serilog.Sinks.ApplicationInsights.xml",
+        "lib/netstandard2.0/Serilog.Sinks.ApplicationInsights.dll",
+        "lib/netstandard2.0/Serilog.Sinks.ApplicationInsights.xml",
+        "serilog.sinks.applicationinsights.4.0.0.nupkg.sha512",
+        "serilog.sinks.applicationinsights.nuspec"
+      ]
+    },
     "Serilog.Sinks.Console/6.0.0": {
       "sha512": "fQGWqVMClCP2yEyTXPIinSr5c+CBGUvBybPxjAGcf7ctDhadFhrQw03Mv8rJ07/wR5PDfFjewf2LimvXCDzpbA==",
       "type": "package",
@@ -6253,6 +6325,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.4",
       "Serilog.AspNetCore >= 9.0.0",
+      "Serilog.Sinks.ApplicationInsights >= 4.0.0",
       "SmartAgriculture.Application >= 1.0.0",
       "SmartAgriculture.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -6338,6 +6411,10 @@
           "Serilog.AspNetCore": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Serilog.Sinks.ApplicationInsights": {
+            "target": "Package",
+            "version": "[4.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
