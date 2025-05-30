@@ -19,9 +19,9 @@ namespace SmartAgriculture.Application.Recommendations.Queries.GetRecommendation
         IFarmRepository farmsRepository,
         IWeatherRepository weatherRepository,
         IUserContext userContext,
-        IMapper mapper) : IRequestHandler<GetRecommendationForFieldQuery, RecommendationDto>
+        IMapper mapper) : IRequestHandler<GetRecommendationForFieldQuery, List<RecommendationDto>>
     {
-        public async Task<RecommendationDto> Handle(GetRecommendationForFieldQuery request, CancellationToken cancellationToken)
+        public async Task<List<RecommendationDto>> Handle(GetRecommendationForFieldQuery request, CancellationToken cancellationToken)
         {
             var user = userContext.GetCurrentUser();
 
@@ -41,8 +41,8 @@ namespace SmartAgriculture.Application.Recommendations.Queries.GetRecommendation
    
             var fetchRecommendation = await recommendationRepository.FetchRecommendationAsync(soilData,getweatherData, request.FieldId, user!.Id);
 
-
-            return null;
+            var recommendationDto = mapper.Map<List<RecommendationDto>>(fetchRecommendation);
+            return recommendationDto;
         }
     }
 }

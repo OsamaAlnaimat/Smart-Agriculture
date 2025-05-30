@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using SmartAgriculture.Application.Identity.Command.ForgotPassword;
+using SmartAgriculture.Application.Identity.Command.ResetPassword;
 using SmartAgriculture.Application.Users.Commands.AssignUserRole;
 using SmartAgriculture.Application.Users.Commands.RegisterUser;
 using SmartAgriculture.Application.Users.Commands.UpdateUserDetails;
@@ -37,6 +39,22 @@ namespace SmartAgricultureAPI.Controllers
 
             await mediator.Send(command);
             return NoContent();
+        }
+
+        [HttpPost("forgot-Password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordCommand command)
+        {
+            var result = await mediator.Send(command);
+            return Ok();
+        }
+
+
+
+        [HttpPost("reset-Password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordCommand command)
+        {
+            var result = await mediator.Send(command);
+            return Ok();
         }
     }
 }

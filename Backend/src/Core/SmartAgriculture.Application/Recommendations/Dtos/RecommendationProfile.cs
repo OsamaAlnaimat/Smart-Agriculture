@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using SmartAgriculture.Application.Recommendations.Models;
 using SmartAgriculture.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace SmartAgriculture.Application.Recommendations.Dtos
         public RecommendationProfile()
         {
             CreateMap<Recommendation, RecommendationDto>();
+            CreateMap<RecommendationList, Recommendation>();
         }
     }
 }

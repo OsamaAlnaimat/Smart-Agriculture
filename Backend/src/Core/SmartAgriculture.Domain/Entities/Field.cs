@@ -19,7 +19,7 @@ namespace SmartAgriculture.Domain.Entities
 
 
         public SoilData? soilData { get; set; } 
-        public Recommendation? recommendation { get; set; }
+        public List<Recommendation>? recommendation { get; set; }
         
 
         public int FarmId { get; set; }

@@ -66,7 +66,7 @@ namespace SmartAgriculture.Infrastructure.Seeders
             {
                 new Farm
                 {
-                    Farmer = owner,  
+                    Farmer = owner,
                     FarmName = "Green Valley",
                     FarmSize = 100.5,
                     FramLocation = "Irbid",
@@ -74,14 +74,14 @@ namespace SmartAgriculture.Infrastructure.Seeders
                     {
                         new Field
                         {
-                           
+
                             FieldName = "Tomato Field",
                             FieldSize = 25,
                             CropType = "Tomatoes",
                             soilData =
                                 new SoilData
                                 {
-                                 
+
                                     SoilPH = 6.5,
                                     Nitrogen = 10,
                                     Phosphorus = 15,
@@ -91,26 +91,19 @@ namespace SmartAgriculture.Infrastructure.Seeders
                                     SoilOrganicMatter = 2.3,
                                     CollectedAt = DateTime.Now
                                 },
-                            recommendation = 
-                        
-                                new Recommendation
-                                {
-                                    
-                                    Message = "Nitrogen levels are low (10 mg/kg). Apply nitrogen fertilizer like urea this week.",
-                                    GeneratedAt = DateTime.Now
-                                }
-                           
+                            recommendation = []
+
                         },
                         new Field
                         {
-                           
+
                             FieldName = "Wheat Field",
                             FieldSize = 30,
                             CropType = "Wheat",
                             soilData =
                                 new SoilData
                                 {
-                                    
+
                                     SoilPH = 7.2,
                                     Nitrogen = 18,
                                     Phosphorus = 8,
@@ -121,13 +114,8 @@ namespace SmartAgriculture.Infrastructure.Seeders
                                     CollectedAt = DateTime.Now
                                 }
                             ,
-                            recommendation =                         
-                                new Recommendation
-                                {
-                                    
-                                    Message = "Moisture is low (22.1%). Increase irrigation frequency during hot days.",
-                                    GeneratedAt = DateTime.Now
-                                }
+                            recommendation = []
+                            
                         }
                     },
                     WeatherReadings = new List<WeatherData>

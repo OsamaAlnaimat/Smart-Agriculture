@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SmartAgriculture.Infrastructure.Persistence;
 
@@ -11,9 +12,11 @@ using SmartAgriculture.Infrastructure.Persistence;
 namespace SmartAgriculture.Infrastructure.Migrations
 {
     [DbContext(typeof(SmartAgriDbContext))]
-    partial class SmartAgriDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250528125018_EditOnResponseRecommendation")]
+    partial class EditOnResponseRecommendation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

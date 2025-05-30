@@ -16,21 +16,41 @@ namespace SmartAgriculture.Infrastructure.Repositories
         {
             var farms = await dbContext.Farms
                 .Where(f => f.FarmerId == userId)
-                .Include(r =>r.Fields!)
-                  .ThenInclude(field => field.soilData)
-                .Include(f => f.WeatherReadings!)
-                .ToListAsync();
-            return farms;  
-        } 
-        
-        public async Task<Farm?> GetByIdAsync(int id,string userId)
-        {
-            var farm = await dbContext.Farms
-                .Where(f => f.FarmerId == userId)
-                .Include(r => r.Fields!)
+                .Include(f => f.Fields!)
                     .ThenInclude(field => field.soilData)
                 .Include(f => f.WeatherReadings!)
+                .ToListAsync();
+
+            // Filter WeatherReadings to keep only the most recent one
+            foreach (var farm in farms)
+            {
+                farm.WeatherReadings = farm.WeatherReadings!
+                    .OrderByDescending(w => w.CollectedAt)
+                    .Take(1)
+                    .ToList();
+            }
+
+            return farms;
+        }
+
+
+        public async Task<Farm?> GetByIdAsync(int id,string userId)
+        {
+
+            var farm = await dbContext.Farms
+               .Where(f => f.FarmerId == userId)
+               .Include(f => f.Fields!)
+                   .ThenInclude(field => field  .soilData)
+               .Include(f => f.WeatherReadings!)
                 .FirstOrDefaultAsync(x => x.Id == id);
+
+
+            farm!.WeatherReadings = farm.WeatherReadings!
+                .OrderByDescending(w => w.CollectedAt)
+                .Take(1)
+                .ToList();
+          
+
             return farm;
         }
         

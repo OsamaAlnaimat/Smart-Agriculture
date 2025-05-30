@@ -27,7 +27,6 @@ namespace SmartAgriculture.Application.Users.Commands.AssignUserRole
 
             await userManager.AddToRoleAsync(user,role.Name!);
 
-
         }
     }
 }

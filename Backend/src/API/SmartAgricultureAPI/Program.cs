@@ -6,6 +6,8 @@ using SmartAgriculture.Infrastructure.Seeders;
 using SmartAgricultureAPI.Extensions;
 using SmartAgricultureAPI.Middlewares;
 using Microsoft.Extensions.AI;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 try
 {
@@ -16,6 +18,7 @@ try
     builder.AddPresentation();
     builder.Services.AddApplication();
     builder.Services.AddInfrastructure(builder.Configuration);
+    builder.Services.AddTransient<IEmailSender, EmailSender>();
 
     builder.Services.AddCors(options =>
     {

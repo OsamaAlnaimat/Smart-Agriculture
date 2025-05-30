@@ -9,6 +9,6 @@ namespace SmartAgriculture.Domain.Repositories
 {
     public interface IRecommendationRepository
     {
-        Task<string?> FetchRecommendationAsync(SoilData soilData,WeatherData weatherData,int fieldId,string userId);
+        Task<List<Recommendation>?> FetchRecommendationAsync(SoilData soilData,WeatherData weatherData,int fieldId,string userId);
     }
 }
