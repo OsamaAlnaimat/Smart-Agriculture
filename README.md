@@ -1,28 +1,51 @@
-# Smart-Agriculture
-Smart Agriculture is an AI-powered platform that helps farmers optimize agricultural productivity and sustainability. It provides insights based on real-time data such as weather, soil health, and moisture levels, enabling smarter decisions for irrigation, fertilization, and crop management.
+# 🌱 Smart Agriculture System
 
-# Smart Agriculture
+A .NET-based Smart Agriculture system designed using **Clean Architecture** principles. It provides farm and field management, soil and weather data recording, and AI-based crop recommendations using CQRS and MediatR.
 
+---
 
+## 📦 Project Structure
 
-- 🌱 **Frontend** (Angular) – Provides the user interface for farmers and admins.
-- ⚙️ **Backend** (.NET) – Web API handling data, authentication, and backend services.
-- 🤖 **AI** (LLMs) – AI-powered features such as crop recommendations and weather analysis.
+SmartAgriculture/
+├── SmartAgriculture.API # ASP.NET Core Web API (Presentation Layer)
+├── SmartAgriculture.Application # Application Layer (CQRS, Handlers, DTOs)
+├── SmartAgriculture.Domain # Core Entities, Enums, Interfaces
+├── SmartAgriculture.Infrastructure # DB, Repositories, External Services
+├── SmartAgriculture.Tests # Unit & Integration Tests
 
-## Folders
-- **`frontend/`**: Angular app for the user interface.
-- **`backend/`**: .NET Web API for backend logic and database.
-- **`ai/`**: Python-based AI scripts and models (LLM integration).
+yaml
+Copy
+Edit
 
-## Setup (Manual Steps)
-1. Open each folder (`frontend`, `backend`, `ai`) individually.
-2. Follow the `README.md` file inside each folder for setup instructions.
-3. Make sure all parts are running to experience the full system.
+---
 
-## Contributors
-- **Osama Alnaimat** – Backend (.NET)
-- **Yahya Mughrabi** – Frontend (Angular)
-- **Naser Rezeq** – AI (LLM & Python)
+## 🔧 Technologies Used
 
-## License
-This project is licensed under the MIT License.
+- **.NET 8 / ASP.NET Core**
+- **Entity Framework Core**
+- **MediatR (CQRS Pattern)**
+- **AutoMapper**
+- **FluentValidation**
+- **RestSharp (AI Service Integration)**
+- **SQL Server / SQLite**
+- **xUnit, Moq, FluentAssertions**
+
+---
+
+## 🚀 Features
+
+- 🌾 Manage farms and fields
+- 📊 Record soil data and weather conditions
+- 💡 Generate AI-based crop recommendations
+- 🔒 Identity features (Registration, Reset Password)
+- ✅ Clean Architecture with CQRS + MediatR
+- 📡 External API Integration (AI & Weather)
+
+---
+
+## 📥 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/SmartAgriculture.git
+cd SmartAgriculture
