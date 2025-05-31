@@ -34,10 +34,10 @@ namespace SmartAgriculture.Application.Recommendations.Queries.GetRecommendation
             if (field == null) throw new NotFoundException(nameof(Field), request.FieldId.ToString());
             
             var soilData = field.soilData;
-            if (soilData == null) throw new NotFoundException(nameof(SoilData), "Field"+request.FieldId.ToString());
+            if (soilData == null) throw new NotFoundException(nameof(SoilData), request.FieldId.ToString());
 
             var getweatherData = await weatherRepository.GetLastReadingForWeatherAsync(request.FarmId);
-            if (getweatherData == null) throw new NotFoundException(nameof(Weather), "Farm"+request.FarmId.ToString());
+            if (getweatherData == null) throw new NotFoundException(nameof(Weather), request.FarmId.ToString());
    
             var fetchRecommendation = await recommendationRepository.FetchRecommendationAsync(soilData,getweatherData, request.FieldId, user!.Id);
 

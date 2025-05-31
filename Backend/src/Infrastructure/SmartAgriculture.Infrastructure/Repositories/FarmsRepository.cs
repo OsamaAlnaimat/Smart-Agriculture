@@ -44,11 +44,13 @@ namespace SmartAgriculture.Infrastructure.Repositories
                .Include(f => f.WeatherReadings!)
                 .FirstOrDefaultAsync(x => x.Id == id);
 
-
-            farm!.WeatherReadings = farm.WeatherReadings!
-                .OrderByDescending(w => w.CollectedAt)
-                .Take(1)
-                .ToList();
+            if (farm != null)
+            {
+                farm!.WeatherReadings = farm.WeatherReadings!
+                    .OrderByDescending(w => w.CollectedAt)
+                    .Take(1)
+                    .ToList();
+            }
           
 
             return farm;

@@ -3,7 +3,7 @@ Smart Agriculture is an AI-powered platform that helps farmers optimize agricult
 
 # Smart Agriculture
 
-A multi-part smart farming system with:
+
 
 - 🌱 **Frontend** (Angular) – Provides the user interface for farmers and admins.
 - ⚙️ **Backend** (.NET) – Web API handling data, authentication, and backend services.
