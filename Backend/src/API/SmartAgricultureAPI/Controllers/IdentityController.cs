@@ -15,7 +15,7 @@ namespace SmartAgricultureAPI.Controllers
     [Route("api/identity")]
     public class IdentityController(IMediator mediator) : ControllerBase
     {
-        [HttpPatch("user")]
+        [HttpPatch("UpdateUserDetails")]
         [Authorize(Roles = UserRoles.Farmer)]
         public async Task<IActionResult> UpdateUserDetails(UpdateUserDetailsCommand command)
         {

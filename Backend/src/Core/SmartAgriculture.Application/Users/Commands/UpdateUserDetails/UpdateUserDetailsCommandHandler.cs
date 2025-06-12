@@ -28,6 +28,13 @@ namespace SmartAgriculture.Application.Users.Commands.UpdateUserDetails
 
             dbUser.Nationality = request.Nationality;
             dbUser.DateOfBirth = request.DateOfBirth;
+            dbUser.FirstName = request.FirstName;
+            dbUser.LastName = request.LastName;
+            dbUser.Email = request.Email;
+            dbUser.UserName = request.Email;
+            dbUser.NormalizedEmail = request.Email.ToUpperInvariant();
+            dbUser.NormalizedUserName = request.Email.ToUpperInvariant();
+            
 
             await userStore.UpdateAsync(dbUser, cancellationToken);
         }
